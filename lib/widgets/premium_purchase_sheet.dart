@@ -67,7 +67,7 @@ class _PremiumPurchaseSheetState extends State<PremiumPurchaseSheet> {
               ),
               const SizedBox(height: 12),
               const Text(
-                'YKS Lingo Super Premium 👑',
+                'KPSS Quest Super Premium 👑',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 20,

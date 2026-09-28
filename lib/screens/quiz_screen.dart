@@ -508,8 +508,9 @@ class QuizScreen extends ConsumerWidget {
             color: isCorrect ? DuoButtonColor.green : DuoButtonColor.red,
             height: 50,
             onPressed: () async {
-              final currentHearts = ref.read(userProfileProvider).hearts;
-              if (currentHearts <= 0) {
+              final isPractice = state.lesson.id.startsWith('practice_');
+              final profile = ref.read(userProfileProvider);
+              if (!isPractice && !profile.isPremium && profile.hearts <= 0) {
                 _showOutOfHeartsDialog(context, ref);
                 return;
               }

@@ -25,9 +25,9 @@ class LeaderboardScreen extends ConsumerWidget {
 
     // Mock rakipler + Kullanıcı
     final List<LeaderboardPlayer> players = [
-      const LeaderboardPlayer(name: 'Ayşe K. (Hacettepe Hedef)', xp: 320, avatar: '👩‍🎓'),
-      const LeaderboardPlayer(name: 'Mehmet T. (Boğaziçi Hedef)', xp: 260, avatar: '👨‍💻'),
-      const LeaderboardPlayer(name: 'Zeynep D.', xp: 210, avatar: '📚'),
+      const LeaderboardPlayer(name: 'Ayşe K. (90+ Puan Hedef)', xp: 320, avatar: '👩‍🎓'),
+      const LeaderboardPlayer(name: 'Mehmet T. (Derece & Atama)', xp: 260, avatar: '👨‍💻'),
+      const LeaderboardPlayer(name: 'Zeynep D. (A Grubu Hedef)', xp: 210, avatar: '📚'),
       const LeaderboardPlayer(name: 'Burak S.', xp: 140, avatar: '🎯'),
       const LeaderboardPlayer(name: 'Elif Y.', xp: 90, avatar: '🚀'),
       const LeaderboardPlayer(name: 'Kaan B.', xp: 40, avatar: '⚡'),
@@ -36,7 +36,7 @@ class LeaderboardScreen extends ConsumerWidget {
     // Kullanıcıyı ekle
     players.add(
       LeaderboardPlayer(
-        name: 'Sen (YKS Savaşçısı)',
+        name: 'Sen (KPSS Şampiyonu)',
         xp: profile.xp,
         avatar: '👑',
         isUser: true,

@@ -127,7 +127,7 @@ class _PromoCodeDialogState extends ConsumerState<PromoCodeDialog> {
                     letterSpacing: 1.1,
                   ),
                   decoration: InputDecoration(
-                    hintText: 'Örn: YKS2026 veya %50',
+                    hintText: 'Örn: KPSS2026 veya %50',
                     hintStyle: TextStyle(
                       color: Colors.grey.shade400,
                       fontWeight: FontWeight.normal,
@@ -168,8 +168,8 @@ class _PromoCodeDialogState extends ConsumerState<PromoCodeDialog> {
                 runSpacing: 6,
                 children: [
                   _buildCodeChip(
-                    code: 'YKS2026',
-                    label: '🎁 YKS2026 (%50 İndirim & +150 💎)',
+                    code: 'KPSS2026',
+                    label: '🎁 KPSS2026 (%50 İndirim & +150 💎)',
                     badgeColor: const Color(0xFF1CB0F6),
                   ),
                 ],

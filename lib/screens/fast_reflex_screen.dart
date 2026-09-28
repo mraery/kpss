@@ -237,6 +237,186 @@ final List<ReflexQuestion> kpssReflexBank = [
     memoryCode: 'Örnek: a = 1/2 ise a² = 1/4 olur; 1/4 < 1/2!',
     subject: 'KPSS Matematik',
   ),
+  const ReflexQuestion(
+    prompt: 'Doğu sınırımızı çizen antlaşmaların kronolojik sırası ve kesinleştiren?',
+    triggerWord: 'G - A - K',
+    correctAnswer: 'Gümrü -> Moskova -> Kars (Kesin Sınır)',
+    wrongOptions: [
+      'Gümrü -> Kars -> Lozan',
+      'Kasr-ı Şirin -> Amasya -> Kars',
+      'Ankara -> Mudanya -> Gümrü'
+    ],
+    memoryCode: 'Şifre: G-A-K! Kars Antlaşması (13 Ekim 1921) doğu sınırımızı kesin çizmiştir!',
+    subject: 'KPSS Tarih',
+  ),
+  const ReflexQuestion(
+    prompt: 'Tarihte bilinen ilk Türk kadın hükümdar kimdir?',
+    triggerWord: 'İskitler / Sakalar',
+    correctAnswer: 'Tomris Hatun',
+    wrongOptions: [
+      'Altun Can Hatun',
+      'Terken Hatun',
+      'Begüm Sultan'
+    ],
+    memoryCode: 'İskitler (Sakalar) hükümdarı Tomris Hatun tarihteki ilk kadın hükümdardır!',
+    subject: 'KPSS Tarih',
+  ),
+  const ReflexQuestion(
+    prompt: 'Lale Devri\'nde ilk Türk matbaasını getiren ikili?',
+    triggerWord: 'İlk Matbaa (1727)',
+    correctAnswer: 'İbrahim Müteferrika ve Said Efendi',
+    wrongOptions: [
+      'Yanyalı Esat Efendi ve Nedim',
+      'Katip Çelebi ve Evliya Çelebi',
+      'Nevşehirli Damat İbrahim ve Levni'
+    ],
+    memoryCode: 'Dini eserler hariç tutulmuş, basılan ilk eser Vankulu Lügati olmuştur!',
+    subject: 'KPSS Tarih',
+  ),
+  const ReflexQuestion(
+    prompt: 'Türkiye sınırları içinde doğup sınırlarımız içinde denize dökülen en uzun akarsu?',
+    triggerWord: 'En Uzun İç Nehir',
+    correctAnswer: 'Kızılırmak (Karadeniz)',
+    wrongOptions: [
+      'Fırat Nehri',
+      'Yeşilırmak',
+      'Sakarya Nehri'
+    ],
+    memoryCode: 'Sınırlarımız içindeki en uzun nehir Kızılırmak\'tır (Fırat sınırlarımız dışına çıkar)!',
+    subject: 'KPSS Coğrafya',
+  ),
+  const ReflexQuestion(
+    prompt: 'Türkiye\'nin en büyük tatlı su gölü hangisidir?',
+    triggerWord: 'Tatlı Su / Balıkçılık',
+    correctAnswer: 'Beyşehir Gölü (Konya-Isparta)',
+    wrongOptions: [
+      'Van Gölü',
+      'Tuz Gölü',
+      'Eğirdir Gölü'
+    ],
+    memoryCode: 'Van Gölü sodalı, Tuz Gölü tuzlu; en büyük TATLI SU gölü Beyşehir\'dir!',
+    subject: 'KPSS Coğrafya',
+  ),
+  const ReflexQuestion(
+    prompt: 'TBMM\'de bir kanunun kabulü için gereken asgari karar yetersayısı kaçtır?',
+    triggerWord: 'Asgari Karar',
+    correctAnswer: '151 Milletvekili (1/4\'ün 1 fazlası)',
+    wrongOptions: [
+      '200 Milletvekili',
+      '301 Milletvekili',
+      '184 Milletvekili'
+    ],
+    memoryCode: 'Katılanların salt çoğunluğu aranır; ancak 151\'den az ASLA olamaz!',
+    subject: 'KPSS Vatandaşlık & Anayasa',
+  ),
+  const ReflexQuestion(
+    prompt: 'Cumhurbaşkanı seçilme yaşı ve milletvekili seçilme yaşı kaçtır?',
+    triggerWord: 'CB Yaşı / MV Yaşı',
+    correctAnswer: 'CB: 40 Yaş / MV: 18 Yaş',
+    wrongOptions: [
+      'CB: 30 Yaş / MV: 25 Yaş',
+      'CB: 35 Yaş / MV: 18 Yaş',
+      'CB: 40 Yaş / MV: 21 Yaş'
+    ],
+    memoryCode: 'Cumhurbaşkanı en az 40 yaş ve yükseköğrenim; Milletvekili 18 yaş!',
+    subject: 'KPSS Vatandaşlık & Anayasa',
+  ),
+  const ReflexQuestion(
+    prompt: 'Anayasa değişikliğinde zorunlu referanduma gidilen oy aralığı?',
+    triggerWord: 'Zorunlu Referandum',
+    correctAnswer: '360 ile 399 Oy Arası (3/5 ile 2/3)',
+    wrongOptions: [
+      '300 ile 360 Oy Arası',
+      '400 ve Üzeri Oy',
+      '200 ile 300 Oy Arası'
+    ],
+    memoryCode: '360-399 arası zorunlu halkoylaması; 400 ve üzeri Cumhurbaşkanı takdirine bağlı!',
+    subject: 'KPSS Vatandaşlık & Anayasa',
+  ),
+  const ReflexQuestion(
+    prompt: 'En küçük asal sayı ve tek çift asal sayı hangisidir?',
+    triggerWord: 'Tek Çift Asal',
+    correctAnswer: '2 Sayısı',
+    wrongOptions: [
+      '1 Sayısı',
+      '0 Sayısı',
+      '3 Sayısı'
+    ],
+    memoryCode: '1 asal değildir; en küçük asal ve tek çift asal 2\'dir!',
+    subject: 'KPSS Matematik',
+  ),
+  const ReflexQuestion(
+    prompt: 'İki kare farkı özdeşliği formülü nedir?',
+    triggerWord: 'a² - b²',
+    correctAnswer: '(a - b)(a + b)',
+    wrongOptions: [
+      '(a - b)²',
+      'a² - 2ab + b²',
+      '(a + b)³'
+    ],
+    memoryCode: 'a² - b² = (a - b)(a + b)!',
+    subject: 'KPSS Matematik',
+  ),
+  const ReflexQuestion(
+    prompt: 'Parçadan bütüne gidilen sorularda (küçük kutulardan büyük kutu yapma) ne kullanılır?',
+    triggerWord: 'Parçadan Bütüne',
+    correctAnswer: 'EKOK (En Küçük Ortak Kat)',
+    wrongOptions: [
+      'EBOB (En Büyük Ortak Bölen)',
+      'Aritmetik Ortalama',
+      'Mod ve Medyan'
+    ],
+    memoryCode: 'Parçadan bütüne EKOK; Bütünden parçaya ayırma EBOB!',
+    subject: 'KPSS Matematik',
+  ),
+  const ReflexQuestion(
+    prompt: 'Axiom-3 misyonu ile uzaya giden ilk Türk astronot kimdir?',
+    triggerWord: 'İlk Astronotumuz',
+    correctAnswer: 'Alper Gezeravcı',
+    wrongOptions: [
+      'Tuva Cihangir Atasever',
+      'Aziz Sancar',
+      'Hulusi Akar'
+    ],
+    memoryCode: 'İlk astronotumuz Alper Gezeravcı; ikinci astronotumuz Tuva Cihangir Atasever!',
+    subject: 'KPSS Güncel Bilgiler',
+  ),
+  const ReflexQuestion(
+    prompt: '2024 yılında fırlatılan Türkiye\'nin ilk yerli ve milli haberleşme uydusu?',
+    triggerWord: 'İlk Yerli Haberleşme',
+    correctAnswer: 'Türksat 6A',
+    wrongOptions: [
+      'Türksat 5B',
+      'Göktürk-1',
+      'İMECE'
+    ],
+    memoryCode: 'Haberleşme: Türksat 6A; Gözlem: İMECE!',
+    subject: 'KPSS Güncel Bilgiler',
+  ),
+  const ReflexQuestion(
+    prompt: 'Cümle içinde hiç virgül (,) yoksa hangi noktalama işareti ASLA kullanılamaz?',
+    triggerWord: 'Virgülsüz Asla!',
+    correctAnswer: 'Noktalı Virgül (;)',
+    wrongOptions: [
+      'İki Nokta (:)',
+      'Ünlem (!)',
+      'Soru İşareti (?)'
+    ],
+    memoryCode: 'Noktalı virgül (;) virgülün olmadığı yerde kesinlikle yer alamaz!',
+    subject: 'KPSS Türkçe & Mantık',
+  ),
+  const ReflexQuestion(
+    prompt: 'Kurum ve kuruluş adlarına gelen ekler nasıl yazılır?',
+    triggerWord: 'TBMM\'ye / TDK\'den',
+    correctAnswer: 'Kesme İşareti Kullanılmaz, Bitişik Yazılır',
+    wrongOptions: [
+      'Kesme işaretiyle ayrılır',
+      'Tırnak içine alınır',
+      'Parantezle ayrılır'
+    ],
+    memoryCode: 'Örn: Türkiye Büyük Millet Meclisine, Türk Dil Kurumuna (Kesme YOK)!',
+    subject: 'KPSS Türkçe & Mantık',
+  ),
 ];
 
 class FastReflexScreen extends ConsumerStatefulWidget {

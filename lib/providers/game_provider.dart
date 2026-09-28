@@ -300,7 +300,7 @@ class UserProfileNotifier extends StateNotifier<UserProfile> {
     }
 
     // 🎁 STANDART İNDİRİM & PROMOSYON KODLARI (%50 İndirim)
-    if (code == 'yks2026' || code == '%50' || code == '50' || code == 'indirim' || code == 'indirim50' || code == '%50indirim' || code == 'yks50') {
+    if (code == 'kpss2026' || code == 'kpss' || code == 'kpss50' || code == 'yks2026' || code == '%50' || code == '50' || code == 'indirim' || code == 'indirim50' || code == '%50indirim' || code == 'yks50') {
       state = state.copyWith(
         hearts: state.maxHearts,
         gems: state.gems + 150,
@@ -415,7 +415,7 @@ final achievementsProvider = Provider<List<Achievement>>((ref) {
     Achievement(
       id: 'streak_30',
       title: 'Durdurulamaz Maraton',
-      desc: 'Tam 30 gün boyunca her gün YKSify ile çalış',
+      desc: 'Tam 30 gün boyunca her gün KPSS Quest ile çalış',
       iconEmoji: '🌋',
       category: AchievementCategory.streak,
       currentProgress: user.streak.clamp(0, 30),
@@ -431,7 +431,7 @@ final achievementsProvider = Provider<List<Achievement>>((ref) {
     Achievement(
       id: 'lessons_1',
       title: 'İlk Adım',
-      desc: 'İlk YKS dersini başarıyla tamamla',
+      desc: 'İlk KPSS dersini başarıyla tamamla',
       iconEmoji: '🎯',
       category: AchievementCategory.lessons,
       currentProgress: completedCount > 0 ? 1 : 0,
@@ -472,7 +472,7 @@ final achievementsProvider = Provider<List<Achievement>>((ref) {
     ),
     Achievement(
       id: 'lessons_35',
-      title: 'YKS Bilgesi',
+      title: 'KPSS Bilgesi',
       desc: '35 farklı dersi tamamlayarak dev bir bilgi birikimi yap',
       iconEmoji: '🎓',
       category: AchievementCategory.lessons,

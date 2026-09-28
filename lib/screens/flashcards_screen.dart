@@ -56,7 +56,7 @@ class _FlashcardsScreenState extends ConsumerState<FlashcardsScreen>
       if (subj == 'Tümü') {
         _deck = List.from(base)..shuffle();
       } else {
-        _deck = base.where((c) => c.subject == subj).toList()..shuffle();
+        _deck = base.where((c) => c.subject == subj || c.subject.contains(subj) || subj.contains(c.subject)).toList()..shuffle();
         if (_deck.isEmpty) {
           _deck = List.from(base)..shuffle();
         }
@@ -553,7 +553,7 @@ class _FlashcardsScreenState extends ConsumerState<FlashcardsScreen>
               borderRadius: BorderRadius.circular(20),
             ),
             child: Text(
-              '${card.subject} • ${card.category ?? "YKS Temel"}',
+              '${card.subject} • ${card.category ?? "KPSS Temel"}',
               style: TextStyle(
                 color: subjectColor,
                 fontWeight: FontWeight.w900,

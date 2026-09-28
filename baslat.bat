@@ -1,15 +1,38 @@
 @echo off
-title YKS Patika - TYT & AYT Hazirlik Uygulamasi
+setlocal enabledelayedexpansion
+title KPSS Quest - Genel Yetenek & Genel Kultur
 echo ===================================================
-echo       YKS Patika: TYT & AYT Hazirlik Baslatiliyor
+echo           KPSS Quest Baslatiliyor
 echo ===================================================
 echo.
-cd /d "C:\Users\roy\.gemini\antigravity\scratch\ykslingo"
 
-echo 1. Yerel web sunucusu calistiriliyor...
-start "YKS Patika Web Sunucusu" /min python -m http.server 8080 --directory build\web
+:: Calisma dizinini bat dosyasinin bulundugu klasore ayarla
+cd /d "%~dp0"
 
-echo 2. Tarayiciniz aciliyor...
+:: build\web klasoru var mi kontrol et, yoksa derle
+if not exist "build\web\index.html" (
+    echo [1/3] Web derlemesi bulunamadi, derleme baslatiliyor...
+    echo Paketler yukleniyor (flutter pub get)...
+    call flutter pub get
+    if errorlevel 1 (
+        echo [HATA] flutter pub get basarisiz oldu! Flutter SDK yuklu mu?
+        pause
+        exit /b 1
+    )
+    
+    echo Web surumu derleniyor (flutter build web)...
+    call flutter build web
+    if errorlevel 1 (
+        echo [HATA] flutter build web basarisiz oldu!
+        pause
+        exit /b 1
+    )
+)
+
+echo [2/3] Yerel web sunucusu baslatiliyor (Port: 8080)...
+start "KPSS Quest Web Sunucusu" /min python -m http.server 8080 --directory build\web
+
+echo [3/3] Tarayici aciliyor...
 timeout /t 2 >nul
 start http://localhost:8080
 
@@ -19,5 +42,5 @@ echo   Uygulama tarayicinizda acildi!
 echo   Adres: http://localhost:8080
 echo ===================================================
 echo.
-echo Kapatmak istediginizde bu pencereyi kapatabilirsiniz.
+echo Sunucuyu kapatmak istediginizde bu pencereyi kapatabilirsiniz.
 pause

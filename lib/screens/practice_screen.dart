@@ -7,6 +7,8 @@ import '../widgets/duo_button.dart';
 import '../widgets/out_of_hearts_dialog.dart';
 import 'flashcards_screen.dart';
 import 'quiz_screen.dart';
+import 'fast_reflex_screen.dart';
+import 'splash_mascot_screen.dart';
 
 class PracticeScreen extends ConsumerWidget {
   const PracticeScreen({super.key});
@@ -76,11 +78,47 @@ class PracticeScreen extends ConsumerWidget {
 
             const SizedBox(height: 24),
 
+            // 1. GÖRÜNCE YAPIŞTIR! ⚡ (Şifre & Kodlama Refleks Oyunu)
+            _buildActionCard(
+              context: context,
+              title: 'Görünce Yapıştır! ⚡',
+              subtitle: 'Şifreyi gör, cevabı anında yapıştır! Kombo yap, rekor kır ve hafıza şifreleriyle soru kaçırma.',
+              icon: Icons.bolt_rounded,
+              iconColor: const Color(0xFFF59E0B),
+              buttonText: 'REFLEKS OYNA ⚡',
+              buttonColor: DuoButtonColor.green,
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => const FastReflexScreen(),
+                  ),
+                );
+              },
+            ),
+
+            const SizedBox(height: 16),
+
+            // 2. RENKLİ PAPAĞAN ZEKI PAŞA (Tam Ekran Maskot & Motivasyon)
+            _buildActionCard(
+              context: context,
+              title: 'Renkli Papağan Paşa 🦜',
+              subtitle: 'KPSS atama yolculuğundaki sevimli koçunla tanış! Tam ekranda dokun, günün tüyosunu kap.',
+              icon: Icons.cruelty_free_rounded,
+              iconColor: const Color(0xFF10B981),
+              buttonText: 'PAŞA İLE TANIŞ 🦜',
+              buttonColor: DuoButtonColor.blue,
+              onTap: () {
+                SplashMascotScreen.show(context);
+              },
+            ),
+
+            const SizedBox(height: 16),
+
             // Hızlı Pratik Modu Kartı
             _buildActionCard(
               context: context,
               title: 'Hızlı Soru Pratiği',
-              subtitle: 'TYT Türkçe ve Tarih karışık mini soru seti çöz, hem XP hem de +1 Can kazan.',
+              subtitle: 'KPSS Genel Yetenek & Genel Kültür karışık mini soru seti çöz, hem XP hem de +1 Can kazan.',
               icon: Icons.flash_on_rounded,
               iconColor: const Color(0xFFFF9600),
               buttonText: 'PRATİĞE BAŞLA',
@@ -182,9 +220,9 @@ class PracticeScreen extends ConsumerWidget {
 
             const SizedBox(height: 24),
 
-            // Günün YKS Hap Bilgisi
+            // Günün KPSS Hap Bilgisi
             const Text(
-              'GÜNÜN YKS HAP BİLGİSİ 💡',
+              'GÜNÜN KPSS HAP BİLGİSİ 💡',
               style: TextStyle(
                 fontWeight: FontWeight.w900,
                 fontSize: 14,

@@ -11,6 +11,7 @@ import '../widgets/unit_guidebook_sheet.dart';
 import '../widgets/peanut_ad_break_dialog.dart';
 import '../widgets/out_of_hearts_dialog.dart';
 import 'quiz_screen.dart';
+import 'splash_mascot_screen.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
@@ -330,99 +331,128 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   Widget _buildParrotCoachCard(UserProfile profile, ExamConfig activeExam) {
     final completedCount = profile.completedLessonIds.length;
 
-    return Container(
-      margin: const EdgeInsets.fromLTRB(16, 10, 16, 8),
-      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-      decoration: BoxDecoration(
-        color: Colors.white,
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: () => SplashMascotScreen.show(context),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFFF1ECE4), width: 1.5),
-        boxShadow: [
-          BoxShadow(
-            color: const Color(0xFFD97706).withOpacity(0.06),
-            blurRadius: 10,
-            offset: const Offset(0, 3),
+        child: Container(
+          margin: const EdgeInsets.fromLTRB(16, 10, 16, 8),
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(color: const Color(0xFFF1ECE4), width: 1.5),
+            boxShadow: [
+              BoxShadow(
+                color: const Color(0xFFD97706).withOpacity(0.06),
+                blurRadius: 10,
+                offset: const Offset(0, 3),
+              ),
+            ],
           ),
-        ],
-      ),
-      child: Row(
-        children: [
-          ParrotMascotWidget(
-            size: 64,
-            mood: ParrotMood.idle,
-            hasCrown: profile.isPremium,
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Row(
+          child: Row(
+            children: [
+              ParrotMascotWidget(
+                size: 64,
+                mood: ParrotMood.idle,
+                hasCrown: profile.isPremium,
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Text(
-                      'Zeki Paşa',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w900,
-                        color: Color(0xFF292524),
-                      ),
-                    ),
-                    const SizedBox(width: 6),
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
-                      decoration: BoxDecoration(
-                        gradient: profile.isPremium
-                            ? const LinearGradient(
-                                colors: [Color(0xFF7C3AED), Color(0xFF4F46E5)],
-                              )
-                            : LinearGradient(
-                                colors: [activeExam.primaryColor, activeExam.secondaryColor],
-                              ),
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: Text(
-                        profile.isPremium ? 'SUPER PREMİUM 👑' : '${activeExam.shortTitle} KOÇU 🎓',
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 9.5,
-                          fontWeight: FontWeight.w900,
-                          letterSpacing: 0.3,
+                    Row(
+                      children: [
+                        const Text(
+                          'Zeki Paşa',
+                          style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w900,
+                            color: Color(0xFF292524),
+                          ),
                         ),
-                      ),
+                        const SizedBox(width: 6),
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
+                          decoration: BoxDecoration(
+                            gradient: profile.isPremium
+                                ? const LinearGradient(
+                                    colors: [Color(0xFF7C3AED), Color(0xFF4F46E5)],
+                                  )
+                                : LinearGradient(
+                                    colors: [activeExam.primaryColor, activeExam.secondaryColor],
+                                  ),
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          child: Text(
+                            profile.isPremium ? 'SUPER PREMİUM 👑' : '${activeExam.shortTitle} KOÇU 🎓',
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 9.5,
+                              fontWeight: FontWeight.w900,
+                              letterSpacing: 0.3,
+                            ),
+                          ),
+                        ),
+                        const Spacer(),
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                          decoration: BoxDecoration(
+                            color: const Color(0xFFECFDF5),
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(color: const Color(0xFFA7F3D0)),
+                          ),
+                          child: const Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Text(
+                                'TAM EKRAN 🦜',
+                                style: TextStyle(
+                                  color: Color(0xFF059669),
+                                  fontWeight: FontWeight.w900,
+                                  fontSize: 10,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
                     ),
-                  ],
-                ),
-                const SizedBox(height: 3),
-                Text(
-                  profile.isPremium
-                      ? 'Sınırsız canınla çalışıyorsun! Yanlış yapmaktan korkma, hedefe odaklan. 👑'
-                      : activeExam.mascotGreeting,
-                  style: const TextStyle(
-                    fontSize: 11.5,
-                    fontWeight: FontWeight.w600,
-                    color: Color(0xFF78716C),
-                    height: 1.25,
-                  ),
-                ),
-                const SizedBox(height: 5),
-                Row(
-                  children: [
-                    const Text('🌱 ', style: TextStyle(fontSize: 12)),
+                    const SizedBox(height: 3),
                     Text(
-                      '$completedCount Konu Tamamlandı',
+                      profile.isPremium
+                          ? 'Sınırsız canınla çalışıyorsun! Yanlış yapmaktan korkma, hedefe odaklan. 👑'
+                          : activeExam.mascotGreeting,
                       style: const TextStyle(
-                        fontSize: 11,
-                        fontWeight: FontWeight.w800,
-                        color: Color(0xFF059669),
+                        fontSize: 11.5,
+                        fontWeight: FontWeight.w600,
+                        color: Color(0xFF78716C),
+                        height: 1.25,
                       ),
+                    ),
+                    const SizedBox(height: 5),
+                    Row(
+                      children: [
+                        const Text('🌱 ', style: TextStyle(fontSize: 12)),
+                        Text(
+                          '$completedCount Konu Tamamlandı • Dokun & Konuş',
+                          style: const TextStyle(
+                            fontSize: 11,
+                            fontWeight: FontWeight.w800,
+                            color: Color(0xFF059669),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }

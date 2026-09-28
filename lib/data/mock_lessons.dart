@@ -1,13 +1,13 @@
 import '../models/lesson_models.dart';
 import '../models/exam_config.dart';
-import 'kpss_units.dart';
+import 'kpss_streaming_units.dart';
 
-export 'kpss_units.dart';
+export 'kpss_streaming_units.dart';
+export 'kpss_flashcards.dart';
 
-/// KPSS Quest Resmi ÖSYM GY & GK Müfredatı
-final List<LearningUnit> mockUnits = kpssUnits;
+/// KPSS Quest Resmi Mufredati
+final List<LearningUnit> mockUnits = kpssStreamingUnits;
 
-/// Aktif Quest sınavına göre müfredat ünitelerini döndürür
 List<LearningUnit> getUnitsForExam(ExamFranchise franchise) {
-  return kpssUnits;
+  return kpssStreamingUnits;
 }

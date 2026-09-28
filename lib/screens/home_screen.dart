@@ -12,6 +12,7 @@ import '../widgets/peanut_ad_break_dialog.dart';
 import '../widgets/out_of_hearts_dialog.dart';
 import 'quiz_screen.dart';
 import 'splash_mascot_screen.dart';
+import '../widgets/unit_download_dialog.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
@@ -658,7 +659,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                         return;
                       }
 
-                      _showSeedStartSheet(context, lesson, unitColor, score, isCompleted);
+                      _showSeedStartSheet(context, lesson, unitColor, score, isCompleted, unit);
                     },
                   ),
                 ),
@@ -756,7 +757,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     Color unitColor,
     double? score,
     bool isCompleted,
+    LearningUnit unit,
   ) {
+    final activeExam = ref.read(examConfigProvider);
     final isExam = lesson.isUnitExam;
     Color themeColor;
     if (score != null) {
@@ -912,7 +915,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 ),
                 elevation: 3,
               ),
-              onPressed: () {
+              onPressed: () async {
                 final currentHearts = ref.read(userProfileProvider).hearts;
                 final isPrem = ref.read(userProfileProvider).isPremium;
                 if (currentHearts <= 0 && !isPrem) {
@@ -920,17 +923,38 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   OutOfHeartsDialog.show(context, ref);
                   return;
                 }
+
+                Lesson activeLesson = lesson;
+                if (activeLesson.questions.isEmpty) {
+                  final downloadedUnit = await UnitDownloadDialog.show(
+                    context,
+                    repoName: activeExam.franchise.name,
+                    skeleton: unit,
+                  );
+                  if (downloadedUnit == null) {
+                    return;
+                  }
+                  if (!context.mounted) return;
+                  ref
+                      .read(currentUnitsProvider.notifier)
+                      .updateUnit(downloadedUnit);
+                  activeLesson = downloadedUnit.lessons.firstWhere(
+                    (l) => l.id == lesson.id,
+                    orElse: () => downloadedUnit.lessons.first,
+                  );
+                }
+
                 Navigator.of(ctx).pop();
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (_) => QuizScreen(lesson: lesson),
+                    builder: (_) => QuizScreen(lesson: activeLesson),
                   ),
                 );
               },
               child: Text(
                 score != null
                     ? (score < 50.0 ? 'TEKRAR ÇALIŞ (%50 İÇİN)' : (score >= 100.0 ? 'TEKRAR ÇALIŞ' : 'PUANI YÜKSELT'))
-                    : (isExam ? 'BÜYÜK ŞÖLENİ BAŞLAT! 🌻👑' : 'DERSE BAŞLA! 🦜✨'),
+                    : (lesson.questions.isNotEmpty ? (isExam ? 'BÜYÜK ŞÖLENİ BAŞLAT! 🌻👑' : 'DERSE BAŞLA! 🦜✨') : 'KONUYU İNDİR & BAŞLA! ⚡'),
                 style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w900,

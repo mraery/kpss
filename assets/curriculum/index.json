@@ -1,0 +1,2926 @@
+[
+  {
+    "id": "kpss_cog_u19",
+    "unitNumber": 19,
+    "title": "Türkiye'nin Coğrafi Konumu ve Jeopolitik Önemi",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u19_l1",
+        "title": "Matematik (Mutlak) Konum ve Sonuçları",
+        "description": "36-42 Kuzey Paralelleri, 26-45 Doğu Meridyenleri, Yerel Saat ve Gölge",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u19_l2",
+        "title": "Göreceli (Özel) Konum ve Jeopolitik",
+        "description": "Üç Kıtayı Bağlayan Konum, Boğazlar, Sınır Kapıları ve Transit Ticaret",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u19_l3",
+        "title": "Coğrafi Konum Kupa Sınavı 🏆",
+        "description": "Tüm Konum Özellikleri, Saat Farkları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u20",
+    "unitNumber": 20,
+    "title": "Türkiye'nin Yerşekilleri - Dağlar, Ovalar ve Platolar",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u20_l1",
+        "title": "Dağlar: Kıvrım, Kırık ve Volkanik Dağlar",
+        "description": "Kuzey Anadolu Dağları, Toroslar, Horst-Graben Sistemleri ve Volkan Konileri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u20_l2",
+        "title": "Platolar ve Ovalar",
+        "description": "Lav, Karstik, Tabaka Düzlüğü ve Aşınım Platoları; Delta ve Tektonik Ovalar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u20_l3",
+        "title": "Yerşekilleri Kupa Sınavı 🏆",
+        "description": "Deprem Kuşakları, Masif Araziler ve Yerşekilleri Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u21",
+    "unitNumber": 21,
+    "title": "Türkiye'nin Su Varlığı - Akarsular, Göller ve Kaynaklar",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u21_l1",
+        "title": "Türkiye'nin Akarsuları ve Havzalar",
+        "description": "Akış Hızı, Rejim, Aşındırma-Biriktirme, Açık ve Kapalı Havzalar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u21_l2",
+        "title": "Göller ve Kaynak Türleri",
+        "description": "Tektonik, Karstik, Volkanik, Buzul, Set Gölleri; Fay, Artezyen ve Karstik Kaynaklar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u21_l3",
+        "title": "Su Varlığı Kupa Sınavı 🏆",
+        "description": "Akarsu Rejimleri, Barajlar, Göller ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u22",
+    "unitNumber": 22,
+    "title": "Dış Kuvvetler, Karstik Şekiller ve Kıyı Tipleri",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u22_l1",
+        "title": "Rüzgar, Buzul ve Dalga Şekilleri",
+        "description": "Mantarkaya, Barkan, Falez, Tombolo, Lagün ve Buzul Sirkleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u22_l2",
+        "title": "Karstik Şekiller ve Kıyı Tipleri",
+        "description": "Lapya, Dolin, Uvala, Polye, Traverten; Boyuna, Enine, Dalmaçya, Ria Kıyı Tipleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u22_l3",
+        "title": "Dış Kuvvetler Kupa Sınavı 🏆",
+        "description": "Kıyı Tipleri, Aşınım Şekilleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u23",
+    "unitNumber": 23,
+    "title": "Türkiye'nin İklimi, Sıcaklık ve Basınç-Rüzgarlar",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u23_l1",
+        "title": "Sıcaklığı Etkileyen Faktörler ve Basınç",
+        "description": "Enlem, Yükselti, Karasallık-Denizellik; Sibirya, İzlanda, Asor, Basra",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u23_l2",
+        "title": "Rüzgarlar ve Föhn Etkisi",
+        "description": "Kayıp-Sakal Şifresi (Karayel, Yıldız, Poyraz, Samyeli, Kıble, Lodos), Föhn ve Etezyen",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u23_l3",
+        "title": "İklim ve Rüzgarlar Kupa Sınavı 🏆",
+        "description": "İzoterm Haritaları, İndirgenmiş Sıcaklık ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u24",
+    "unitNumber": 24,
+    "title": "Nem, Yağış Dağılışı ve İklim Tipleri",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u24_l1",
+        "title": "Nem Türleri ve Yağış Çeşitleri",
+        "description": "Mutlak, Maksimum, Bağıl Nem; Orografik, Konveksiyonel ve Cephesel Yağışlar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u24_l2",
+        "title": "Türkiye'de Görülen İklim Tipleri",
+        "description": "Akdeniz, Karadeniz, Karasal (Step) ve Sert Karasal İklim Özellikleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u24_l3",
+        "title": "Yağış ve İklim Kupa Sınavı 🏆",
+        "description": "Yağış Grafikleri, Kuraklık, İklim Rejimleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u25",
+    "unitNumber": 25,
+    "title": "Türkiye'nin Toprak Tipleri ve Bitki Örtüsü",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u25_l1",
+        "title": "Toprak Tipleri: Zonal, Azonal, İntrazonal",
+        "description": "Terra-Rossa, Kahverengi Orman, Çernezyom, Podzol, Alüvyal ve Regosol Topraklar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u25_l2",
+        "title": "Bitki Örtüsü: Orman, Çalı ve Bozkır",
+        "description": "Maki, Garig, Psödömaki, Antropojen Bozkır ve Dağ Çayırları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u25_l3",
+        "title": "Toprak ve Bitki Kupa Sınavı 🏆",
+        "description": "Erozyon, Heyelan, Toprak Koruma ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u26",
+    "unitNumber": 26,
+    "title": "Türkiye'de Nüfusun Dağılışı, Sayımlar ve Göçler",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u26_l1",
+        "title": "Nüfusun Dağılışını Etkileyen Faktörler",
+        "description": "Doğal ve Beşeri Faktörler, Seyrek ve Yoğun Nüfuslu Yöreler",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u26_l2",
+        "title": "Nüfus Piramidi, Sayımlar ve Göçler",
+        "description": "Nüfus Artış Hızı, Yaş Grupları, Mevsimlik Tarım-Turizm Göçleri ve Beyin Göçü",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u26_l3",
+        "title": "Nüfus ve Göç Kupa Sınavı 🏆",
+        "description": "TÜİK Verileri, Bağımlı Nüfus, İç ve Dış Göçler ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u27",
+    "unitNumber": 27,
+    "title": "Yerleşme Tipleri ve İdari Yapılanma",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u27_l1",
+        "title": "Kırsal Yerleşmeler ve Köy Altı",
+        "description": "Kom, Ağıl, Oba, Yayla, Dam, Mezra, Divan, Mahalle ve Dalyan",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u27_l2",
+        "title": "Kentsel Yerleşmeler ve Şehir Fonksiyonları",
+        "description": "Sanayi, Ticaret, Turizm, İdari, Maden ve Liman Şehirleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u27_l3",
+        "title": "Yerleşmeler Kupa Sınavı 🏆",
+        "description": "Mesken Tipleri (Ahşap, Kerpiç, Taş) ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u28",
+    "unitNumber": 28,
+    "title": "Türkiye'de Tarım ve Başlıca Tarım Ürünleri",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u28_l1",
+        "title": "Tarımı Etkileyen Faktörler ve Sorunlar",
+        "description": "Sulama, Gübreleme, Tohum Islahı, Makineleşme ve Destekleme Alımları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u28_l2",
+        "title": "Başlıca Tarım Ürünleri ve Yetişme Alanları",
+        "description": "Tahıllar, Sanayi Bitkileri, Baklagiller, Yağlı Tohumlar, Meyveler",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u28_l3",
+        "title": "Tarım Coğrafyası Kupa Sınavı 🏆",
+        "description": "Devlet Tekeli Ürünler, Don Hassasiyeti ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u29",
+    "unitNumber": 29,
+    "title": "Hayvancılık, Ormancılık ve Su Ürünleri",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u29_l1",
+        "title": "Hayvancılık Türleri ve Dağılışı",
+        "description": "Küçükbaş (Koyun, Kıl Keçisi, Tiftik), Büyükbaş (Mera ve Ahır/Besi), Kümes",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u29_l2",
+        "title": "Arıcılık, İpek Böcekçiliği ve Balıkçılık",
+        "description": "Çam/Kestane/Yayla Balı, Kültür Balıkçılığı, Karadeniz ve Orman Varlığı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u29_l3",
+        "title": "Hayvancılık ve Orman Kupa Sınavı 🏆",
+        "description": "Besi Hayvancılığı, Orman Ürünleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u30",
+    "unitNumber": 30,
+    "title": "Madenler ve Enerji Kaynakları",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u30_l1",
+        "title": "Metalik Madenler ve Rezerv Alanları",
+        "description": "Demir, Bakır, Boksit, Krom, Bor, Manganez, Kurşun-Çinko, Mermer",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u30_l2",
+        "title": "Enerji Kaynakları: Tükenebilir ve Yenilenebilir",
+        "description": "Taş Kömürü, Linyit, Petrol, Doğalgaz, Hidroelektrik, Rüzgar, Güneş, Jeotermal",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u30_l3",
+        "title": "Maden ve Enerji Kupa Sınavı 🏆",
+        "description": "Termik Santraller, Bor Sanayii, Akkuyu Nükleer ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u31",
+    "unitNumber": 31,
+    "title": "Türkiye'de Sanayi ve Sanayinin Kuruluş Faktörleri",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u31_l1",
+        "title": "Sanayinin Kuruluş Yerini Etkileyen Faktörler",
+        "description": "Hammaddeye Yakınlık, Enerji, Ulaşım, Pazar ve Sermaye",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u31_l2",
+        "title": "Başlıca Sanayi Kolları ve Merkezleri",
+        "description": "Demir-Çelik, Dokuma-Tekstil, Gıda, Petrokimya, Çimento ve Otomotiv",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u31_l3",
+        "title": "Sanayi Coğrafyası Kupa Sınavı 🏆",
+        "description": "Serbest Ticaret Bölgeleri, OSB'ler ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u32",
+    "unitNumber": 32,
+    "title": "Ulaşım, Ticaret ve Turizm Coğrafyası",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u32_l1",
+        "title": "Ulaşım Sistemleri ve Ticaret",
+        "description": "Karayolu, Demiryolu (YHT), Denizyolu (Limanlar), Havayolu; Dış Ticaret Açığı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u32_l2",
+        "title": "Turizm Çeşitleri ve UNESCO Alanları",
+        "description": "Kıyı, Kış, Termal, Yayla, İnanç, Kongre ve Kültür Turizmi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u32_l3",
+        "title": "Ulaşım ve Turizm Kupa Sınavı 🏆",
+        "description": "Sınır Kapıları, Transit Boru Hatları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_cog_u33",
+    "unitNumber": 33,
+    "title": "Türkiye'nin Coğrafi Bölgeleri ve Kalkınma Projeleri",
+    "subject": "KPSS Coğrafya",
+    "colorHex": 4279286145,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_cog_u33_l1",
+        "title": "Bölgesel Kalkınma Projeleri (GAP, DAP, KOP, DOKAP)",
+        "description": "Proje Amaçları, Kapsadığı İller, Sulama ve Sosyoekonomik Etkileri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u33_l2",
+        "title": "Yeşilırmak (YHGP) ve Zonguldak-Bartın-Karabük (ZBK)",
+        "description": "Havza Islahı, Ağır Sanayi Dönüşümü ve Bölgesel Farklılıklar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_cog_u33_l3",
+        "title": "Bölgesel Projeler Kupa Sınavı 🏆",
+        "description": "Tüm Kalkınma Projeleri, İller ve Coğrafya Final Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_gun_u49",
+    "unitNumber": 49,
+    "title": "Uluslararası Kuruluşlar (BM, NATO, AB, TDT)",
+    "subject": "KPSS Güncel Bilgiler",
+    "colorHex": 4294286859,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_gun_u49_l1",
+        "title": "Birleşmiş Milletler ve Bağlı Uzmanlık Kuruluşları",
+        "description": "Genel Kurul, Güvenlik Konseyi (FİRÇA), UNESCO, WHO, IMF, UNICEF",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u49_l2",
+        "title": "NATO, Avrupa Birliği ve Türk Devletleri Teşkilatı",
+        "description": "NATO Genişlemesi, AB Organları, TDT Zirveleri ve Şanghay İşbirliği",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u49_l3",
+        "title": "Uluslararası Örgütler Kupa Sınavı 🏆",
+        "description": "Genel Sekreterler, Merkezler, D-8, G-20 ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_gun_u50",
+    "unitNumber": 50,
+    "title": "Kültür, Edebiyat ve Türk-İslam Bilginleri",
+    "subject": "KPSS Güncel Bilgiler",
+    "colorHex": 4294286859,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_gun_u50_l1",
+        "title": "Klasik Türk ve Dünya Edebiyatı Başyapıtları",
+        "description": "Dede Korkut, Yunus Emre, Mevlana, Fuzuli, Baki, Dostoyevski, Tolstoy",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u50_l2",
+        "title": "Nobel Ödülleri ve Önemli Bilim İnsanları",
+        "description": "Aziz Sancar (Kimya), Orhan Pamuk (Edebiyat), Oktay Sinanoğlu, Cahit Arf",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u50_l3",
+        "title": "Kültür ve Edebiyat Kupa Sınavı 🏆",
+        "description": "Eser-Yazar Eşleştirmeleri, Önemli Ressam ve Besteciler Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_gun_u51",
+    "unitNumber": 51,
+    "title": "Türkiye'nin UNESCO Dünya Miras Alanları",
+    "subject": "KPSS Güncel Bilgiler",
+    "colorHex": 4294286859,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_gun_u51_l1",
+        "title": "UNESCO Dünya Miras Listesi'ndeki Türk Varlıkları",
+        "description": "Göbeklitepe, Divriği Ulu Camii, Efes, Bergama, Hattuşa, Çatalhöyük",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u51_l2",
+        "title": "Yeni Eklenen Alanlar ve Somut Olmayan Miraslar",
+        "description": "Gordion (Ankara), Arslantepe Höyüğü, Ebru Sanatı, Nevruz, Dede Korkut",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u51_l3",
+        "title": "UNESCO Mirasları Kupa Sınavı 🏆",
+        "description": "Karma Miraslar (Kapadokya, Pamukkale) ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_gun_u52",
+    "unitNumber": 52,
+    "title": "Bilim, Havacılık, Uzay ve Milli Savunma Teknolojileri",
+    "subject": "KPSS Güncel Bilgiler",
+    "colorHex": 4294286859,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_gun_u52_l1",
+        "title": "Milli Uzay Programı ve İlk Türk Astronotlar",
+        "description": "Alper Gezeravcı (Axiom-3), Tuva Cihangir Atasever, TÜRKSAT 6A",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u52_l2",
+        "title": "Milli Savunma Sanayii Projeleri",
+        "description": "KAAN (Milli Muharip Uçak), Kızılelma, Bayraktar TB3, TCG Anadolu, HÜRJET",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u52_l3",
+        "title": "Bilim ve Savunma Kupa Sınavı 🏆",
+        "description": "TEKNOFEST, TUA, ASELSAN, ROKETSAN, HAVELSAN ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_gun_u53",
+    "unitNumber": 53,
+    "title": "Türkiye ve Dünyada Güncel Gelişmeler & Ödüller",
+    "subject": "KPSS Güncel Bilgiler",
+    "colorHex": 4294286859,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_gun_u53_l1",
+        "title": "Son Dönem Uluslararası Olaylar ve Zirveler",
+        "description": "COP İklim Zirveleri, Akdeniz Oyunları, Olimpiyatlar ve Şampiyonlar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u53_l2",
+        "title": "Kültür Başkentleri ve Önemli Yıllar",
+        "description": "Türk Dünyası Kültür Başkentleri, UNESCO Anma ve Kutlama Yılları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u53_l3",
+        "title": "Güncel Olaylar Kupa Sınavı 🏆",
+        "description": "Cumhurbaşkanlığı Kültür Sanat Büyük Ödülleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_gun_u54",
+    "unitNumber": 54,
+    "title": "Coğrafi İşaretler, İlkler ve Önemli Şahsiyetler",
+    "subject": "KPSS Güncel Bilgiler",
+    "colorHex": 4294286859,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_gun_u54_l1",
+        "title": "AB Tescilli Türk Coğrafi İşaretleri",
+        "description": "Antep Baklavası, Aydın İnciri, Malatya Kayısısı, Milas Zeytinyağı, Safran",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u54_l2",
+        "title": "Türkiye'nin İlkleri ve Tarihe Geçen İsimler",
+        "description": "İlk Kadın Bakan, İlk Kadın Vali, İlk Kadın Muhtar, İlk Milli Park",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_gun_u54_l3",
+        "title": "Genel Kültür Final Kupa Sınavı 🏆",
+        "description": "Tüm İlkler, Şahsiyetler ve Güncel Bilgiler Final Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u69",
+    "unitNumber": 69,
+    "title": "Temel Kavramlar, Ardışık Sayılar ve Basamak Analizi",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u69_l1",
+        "title": "Sayı Kümeleri, Tek-Çift ve Pozitif-Negatif Sayılar",
+        "description": "Doğal Sayılar (N), Tam Sayılar (Z), Rasyonel Sayılar (Q), Reel Sayılar (R); Tek/Çift Kuralları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u69_l2",
+        "title": "Ardışık Sayılar ve Basamak Çözümleme",
+        "description": "Terim Sayısı, Terimler Toplamı Formülü; AB = 10A + B, ABC Çözümlemesi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u69_l3",
+        "title": "Temel Kavramlar Kupa Sınavı 🏆",
+        "description": "Faktöriyel Kavramı, Asallık, Aralarında Asal Sayılar ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u70",
+    "unitNumber": 70,
+    "title": "Bölme, Bölünebilme Kuralları ve Asal Çarpanlar",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u70_l1",
+        "title": "Bölme İşlemi ve Kalan İlişkisi",
+        "description": "A = B.C + K, Kalan Bölen'den Küçük Olmalı (0 <= K < B)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u70_l2",
+        "title": "Bölünebilme Kuralları",
+        "description": "2, 3, 4, 5, 8, 9, 10, 11 ile Bölünebilme ve Aralarında Asal Çarpanlara Ayırma (6, 12, 15, 30, 45)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u70_l3",
+        "title": "Bölünebilme Kupa Sınavı 🏆",
+        "description": "Asal Çarpanlara Ayırma, Pozitif Bölen Sayısı Formülü ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u71",
+    "unitNumber": 71,
+    "title": "EBOB-EKOK ve Periyodik Problemler",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u71_l1",
+        "title": "EBOB ve EKOK Bulma Yöntemleri",
+        "description": "En Büyük Ortak Bölen, En Küçük Ortak Kat; a.b = EBOB(a,b) . EKOK(a,b)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u71_l2",
+        "title": "EBOB-EKOK Problemleri",
+        "description": "Bütünden Parçaya (EBOB: Şişeleme, Ağaç Dikme, Parselleme), Parçadan Bütüne (EKOK: Nöbet, Ziller, Fayans)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u71_l3",
+        "title": "EBOB-EKOK Kupa Sınavı 🏆",
+        "description": "Periyodik Tekrar Eden Olaylar, Gün ve Saat Problemleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u72",
+    "unitNumber": 72,
+    "title": "Rasyonel ve Ondalık Sayılar",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u72_l1",
+        "title": "Rasyonel Sayılarda Dört İşlem",
+        "description": "Toplama, Çıkarma (Payda Eşitleme), Çarpma, Bölme (Ters Çevir Çarp), Merdivenli İşlemler",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u72_l2",
+        "title": "Ondalık Sayılar ve Devirli Ondalıklar",
+        "description": "Virgül Kaydırma, Ondalık Kesirlerde Dört İşlem, Devirli Sayıyı Rasyonele Çevirme",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u72_l3",
+        "title": "Rasyonel Sayılar Kupa Sınavı 🏆",
+        "description": "Rasyonel Sayılarda Sıralama (Payları veya Paydaları Eşitleme, Fark Eşitliği) ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u73",
+    "unitNumber": 73,
+    "title": "Basit Eşitsizlikler ve Mutlak Değer",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u73_l1",
+        "title": "Basit Eşitsizlik Özellikleri",
+        "description": "Eşitsizliğin Her İki Tarafını Negatif Sayı ile Çarpma/Bölme (Yön Değiştirme), Taraf Tarafa Toplama",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u73_l2",
+        "title": "Mutlak Değer Tanımı ve Denklemleri",
+        "description": "|x| Kavramı, |x| = a, |x| < a ve |x| > a Çözüm Yolları, Üçgen Eşitsizliği",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u73_l3",
+        "title": "Eşitsizlik ve Mutlak Değer Kupa Sınavı 🏆",
+        "description": "Aralık Kavramı, Tam Sayı Değerleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u74",
+    "unitNumber": 74,
+    "title": "Üslü ve Köklü Sayılar",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u74_l1",
+        "title": "Üslü Sayı Kuralları ve Denklemler",
+        "description": "Tabanlar Aynıysa Üsler Toplanır/Çıkarılır, Üssün Üssü, Ortak Paranteze Alma",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u74_l2",
+        "title": "Köklü Sayı Kuralları ve Eşlenik",
+        "description": "Kök Dışına Çıkarma, Kök İçine Alma, Eşlenik ile Çarpma (Paydayı Rasyonel Yapma)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u74_l3",
+        "title": "Üslü ve Köklü Sayılar Kupa Sınavı 🏆",
+        "description": "İç İçe Kökler, Üslü-Köklü Karışık Denklemler ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u75",
+    "unitNumber": 75,
+    "title": "Çarpanlara Ayırma ve Özdeşlikler",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u75_l1",
+        "title": "Özdeşlikler: İki Kare Farkı ve Tam Kare",
+        "description": "a^2 - b^2 = (a-b)(a+b), (a+b)^2 = a^2 + 2ab + b^2, (a-b)^2",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u75_l2",
+        "title": "Çarpanlara Ayırma Yöntemleri",
+        "description": "Ortak Çarpan Parantezi, Gruplandırma, ax^2 + bx + c Açılımı, Sadeleştirme",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u75_l3",
+        "title": "Özdeşlikler Kupa Sınavı 🏆",
+        "description": "Küp Açılımları, Rasyonel İfadelerin Sadeleştirilmesi ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u76",
+    "unitNumber": 76,
+    "title": "Oran-Orantı ve Birinci Dereceden Denklemler",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u76_l1",
+        "title": "Oran ve Orantı Çeşitleri",
+        "description": "Doğru Orantı (Bölüm sabittir), Ters Orantı (Çarpım sabittir), Bileşik Orantı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u76_l2",
+        "title": "Ortalamalar ve Denklem Çözme",
+        "description": "Aritmetik Ortalama, Geometrik Ortalama; ax + b = 0 Çözüm Kümesi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u76_l3",
+        "title": "Oran-Orantı Kupa Sınavı 🏆",
+        "description": "İki Bilinmeyenli Denklem Sistemleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u77",
+    "unitNumber": 77,
+    "title": "Sayı ve Kesir Problemleri",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u77_l1",
+        "title": "Sayı Problemleri Kurma ve Çözme",
+        "description": "Bilinmeyen Seçimi (x, y), Adım, Kuyruk, Merdiven, Mum ve Tel Kesme Problemleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u77_l2",
+        "title": "Kesir Problemleri",
+        "description": "Kalanın Kesri Mantığı, Paydaların EKOK'unu Bütün Kabul Etme Taktiği",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u77_l3",
+        "title": "Sayı-Kesir Kupa Sınavı 🏆",
+        "description": "ÖSYM Yeni Nesil Hikayeli Sayı Problemleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u78",
+    "unitNumber": 78,
+    "title": "Yaş, İşçi ve Havuz Problemleri",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u78_l1",
+        "title": "Yaş Problemleri",
+        "description": "İki Kişi Arasındaki Yaş Farkının Asla Değişmemesi Kuralı, Yıl Geçtiğinde Herkesin Büyümesi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u78_l2",
+        "title": "İşçi ve Kapasite Problemleri",
+        "description": "Birim Zamanda Yapılan İş (1/t), İşçi Sayısı ile Süre Ters Orantısı, Kapasite",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u78_l3",
+        "title": "Yaş ve İşçi Kupa Sınavı 🏆",
+        "description": "Birlikte Çalışma, İşten Ayrılma Senaryoları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u79",
+    "unitNumber": 79,
+    "title": "Yüzde, Kâr-Zarar, İndirim ve Faiz Problemleri",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u79_l1",
+        "title": "Yüzde ve Kâr-Zarar Hesaplamaları",
+        "description": "Maliyet Fiyatını 100x Kabul Etme, Kâr = Satış - Maliyet, Zarar Oranı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u79_l2",
+        "title": "İskonto (İndirim) ve Enflasyon",
+        "description": "Etiket Fiyatı Üzerinden İndirim, Arka Arkaya İndirimler, Alım Gücü Değişimi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u79_l3",
+        "title": "Kâr-Zarar Kupa Sınavı 🏆",
+        "description": "KDV, Fire Verilen Ürünler (Yaş sabun/kuru sabun) ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u80",
+    "unitNumber": 80,
+    "title": "Karışım ve Hareket-Hız Problemleri",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u80_l1",
+        "title": "Karışım Problemleri",
+        "description": "Saf Madde Oranı = Saf Madde / Toplam Karışım; Su Buharlaştırma ve Madde Ekleme",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u80_l2",
+        "title": "Hareket ve Hız Problemleri",
+        "description": "Yol = Hız x Zaman (x = v.t), Zıt Yönde Hareket (Hızlar Toplanır), Aynı Yönde Hareket (Hızlar Çıkarılır)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u80_l3",
+        "title": "Karışım ve Hız Kupa Sınavı 🏆",
+        "description": "Ortalama Hız Formülü, Dairesel Pist, Tren-Tünel ve Nehir-Akıntı Problemleri Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u81",
+    "unitNumber": 81,
+    "title": "Kümeler, Fonksiyonlar ve İşlem",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u81_l1",
+        "title": "Küme Kavramı ve İşlemleri",
+        "description": "Birleşim, Kesişim, Fark, Tümleyen; Alt Küme Sayısı (2^n); Küme Problemleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u81_l2",
+        "title": "Fonksiyonlar ve Özel İşlemler",
+        "description": "f(x) Tanım ve Görüntü Kümesi, f(a) Değerini Bulma, Ters Fonksiyon, Bileşke Fonksiyon",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u81_l3",
+        "title": "Kümeler ve Fonksiyon Kupa Sınavı 🏆",
+        "description": "Birebir ve Örten Fonksiyon, Tablo ile Tanımlanan Özel İşlemler ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u82",
+    "unitNumber": 82,
+    "title": "Permütasyon, Kombinasyon ve Olasılık",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u82_l1",
+        "title": "Sayma İlkeleri ve Permütasyon",
+        "description": "Toplama ve Çarpma Yoluyla Sayma, Faktöriyel; Sıralama (Permütasyon: P(n,r))",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u82_l2",
+        "title": "Kombinasyon (Seçme) ve Olasılık",
+        "description": "Grup Oluşturma C(n,r); Olasılık = İstenen Durum Sayısı / Tüm Olası Durumların Sayısı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u82_l3",
+        "title": "Olasılık Kupa Sınavı 🏆",
+        "description": "Madeni Para, Zar, Torbadan Top Çekme ve Koşullu Olasılık Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u83",
+    "unitNumber": 83,
+    "title": "Sayısal Mantık ve Tablo-Grafik Yorumlama",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u83_l1",
+        "title": "Grafik Okuma (Daire, Çizgi, Sütun)",
+        "description": "Daire Grafiğinde Açı-Yüzde Dönüşümü (360° = %100), Sütun ve Çizgi Grafik Karşılaştırması",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u83_l2",
+        "title": "Sayı Dizileri, Örüntüler ve Sayısal Mantık",
+        "description": "Şekil-Sayı Bağıntıları, Sihirli Kareler, Saat ve Akrep-Yelkovan Açıları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u83_l3",
+        "title": "Sayısal Mantık Kupa Sınavı 🏆",
+        "description": "ÖSYM 3'lü ve 4'lü Sayısal Mantık Problem Setleri Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u84",
+    "unitNumber": 84,
+    "title": "Geometri - Açılar ve Özel Üçgenler",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u84_l1",
+        "title": "Doğruda ve Üçgende Açılar",
+        "description": "Z, U, M Kuralları; Üçgenin İç ve Dış Açıları Toplamı, Açıortay ve Kenarortay",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u84_l2",
+        "title": "Özel Dik Üçgenler ve Alan",
+        "description": "Pisagor Teoremi (3-4-5, 5-12-13, 8-15-17, 7-24-25); 30-60-90 ve 45-45-90 Üçgenleri; Taban x Yükseklik / 2",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u84_l3",
+        "title": "Üçgenler Kupa Sınavı 🏆",
+        "description": "İkizkenar ve Eşkenar Üçgen, Benzerlik Oranı ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u85",
+    "unitNumber": 85,
+    "title": "Geometri - Dörtgenler, Çokgenler ve Çember-Daire",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u85_l1",
+        "title": "Düzgün Çokgenler ve Dörtgenler",
+        "description": "Düzgün Beşgen, Altıgen; Kare, Dikdörtgen, Paralelkenar, Eşkenar Dörtgen, Yamuk",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u85_l2",
+        "title": "Çemberde Açı ve Dairede Alan",
+        "description": "Merkez Açı, Çevre Açı; Çemberin Çevresi (2.pi.r), Dairenin Alanı (pi.r^2), Daire Dilimi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u85_l3",
+        "title": "Dörtgen ve Çember Kupa Sınavı 🏆",
+        "description": "Teğet-Kiriş Özellikleri, Dairede Yay Uzunluğu ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_mat_u86",
+    "unitNumber": 86,
+    "title": "Geometri - Analitik Geometri ve Katı Cisimler",
+    "subject": "KPSS Matematik",
+    "colorHex": 4282090230,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_mat_u86_l1",
+        "title": "Noktanın ve Doğrunun Analitiği",
+        "description": "Koordinat Düzlemi, İki Nokta Arası Uzaklık, Orta Nokta, Eğim (m), Doğru Denklemi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u86_l2",
+        "title": "Katı Cisimler (Prizma, Silindir, Koni, Küre)",
+        "description": "Hacim ve Yüzey Alanı Hesaplamaları, Açınım",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_mat_u86_l3",
+        "title": "Geometri Final Kupa Sınavı 🏆",
+        "description": "Analitik Düzlemde Doğruların Durumu ve Matematik-Geometri Final Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u1",
+    "unitNumber": 1,
+    "title": "İslamiyet Öncesi Türk Tarihi & Kültür Medeniyet",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u1_l1",
+        "title": "İlk Türk Devletleri ve Hükümdarlar",
+        "description": "Asya Hun, I. ve II. Göktürk, Uygurlar ve Boylar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u1_l2",
+        "title": "Devlet Teşkilatı, Veraset ve Töre",
+        "description": "Kut İnancı, Kurultay, Sosyal Yapı ve Hukuk",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u1_l3",
+        "title": "İslamiyet Öncesi Türk Tarihi Kupa Sınavı 🏆",
+        "description": "Tüm Konuları Kapsayan Kupa Denemesi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u10",
+    "unitNumber": 10,
+    "title": "Osmanlı Dağılma Dönemi ve Fikir Akımları (XIX. Yüzyıl)",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u10_l1",
+        "title": "Demokratikleşme Belgeleri",
+        "description": "Sened-i İttifak, Tanzimat Fermanı, Islahat Fermanı ve Kanun-i Esasi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u10_l2",
+        "title": "I. ve II. Meşrutiyet Dönemleri",
+        "description": "İttihat ve Terakki, 31 Mart Vakası ve Duyun-ı Umumiye",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u10_l3",
+        "title": "Dağılma Dönemi Kupa Sınavı 🏆",
+        "description": "Fikir Akımları: Osmanlıcılık, İslamcılık, Türkçülük ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u11",
+    "unitNumber": 11,
+    "title": "XX. Yüzyıl Başlarında Osmanlı ve I. Dünya Savaşı",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u11_l1",
+        "title": "Trablusgarp ve Balkan Savaşları",
+        "description": "Uşi Antlaşması, I. ve II. Balkan Savaşları ve Kaybedilen Topraklar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u11_l2",
+        "title": "I. Dünya Savaşı Cepheleri",
+        "description": "Kafkas, Kanal, Çanakkale, Irak, Hicaz-Yemen Cepheleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u11_l3",
+        "title": "I. Dünya Savaşı Kupa Sınavı 🏆",
+        "description": "Mondros Ateşkesi, Wilson İlkeleri, Gizli Antlaşmalar ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u12",
+    "unitNumber": 12,
+    "title": "Kurtuluş Savaşı Hazırlık Dönemi",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u12_l1",
+        "title": "Genelgeler Dönemi",
+        "description": "Samsun'a Çıkış, Havza Genelgesi ve Amasya Genelgesi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u12_l2",
+        "title": "Kongreler ve Misak-ı Milli",
+        "description": "Erzurum Kongresi, Sivas Kongresi, Amasya Görüşmeleri ve Misak-ı Milli",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u12_l3",
+        "title": "Hazırlık Dönemi Kupa Sınavı 🏆",
+        "description": "Heyet-i Temsiliye, Yararlı/Zararlı Cemiyetler ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u13",
+    "unitNumber": 13,
+    "title": "I. TBMM Dönemi, Ayaklanmalar ve Sevr Antlaşması",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u13_l1",
+        "title": "I. TBMM'nin Açılışı ve Özellikleri",
+        "description": "Meclis Hükümeti Sistemi, Yasama-Yürütme Birliği ve Kanunlar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u13_l2",
+        "title": "TBMM'ye Karşı Ayaklanmalar ve Sevr",
+        "description": "Hıyanet-i Vataniye, İstiklal Mahkemeleri ve Sevr'in Hukuki Durumu",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u13_l3",
+        "title": "I. TBMM Kupa Sınavı 🏆",
+        "description": "Bilecik Görüşmeleri, Düzenli Ordunun Kurulması ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u14",
+    "unitNumber": 14,
+    "title": "Kurtuluş Savaşı Muharebeler Dönemi ve Antlaşmalar",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u14_l1",
+        "title": "Doğu ve Güney Cepheleri",
+        "description": "Gümrü Antlaşması, Maraş-Antep-Urfa Savunması ve Ankara Antlaşması",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u14_l2",
+        "title": "Batı Cephesi Savaşları",
+        "description": "I. İnönü, II. İnönü, Kütahya-Eskişehir, Sakarya ve Büyük Taarruz",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u14_l3",
+        "title": "Muharebeler Dönemi Kupa Sınavı 🏆",
+        "description": "Mudanya Ateşkesi, Lozan Barış Antlaşması ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u15",
+    "unitNumber": 15,
+    "title": "Atatürk İlkeleri ve Türk İnkılabı",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u15_l1",
+        "title": "Atatürk'ün 6 Temel İlkesi",
+        "description": "Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u15_l2",
+        "title": "Siyasi ve Hukuki İnkılaplar",
+        "description": "Saltanatın Kaldırılması, Cumhuriyetin İlanı, Halifelik, Medeni Kanun",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u15_l3",
+        "title": "Atatürk İlkeleri Kupa Sınavı 🏆",
+        "description": "Eğitim, Kültür ve Toplumsal İnkılaplar ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u16",
+    "unitNumber": 16,
+    "title": "Atatürk Dönemi İç ve Dış Politika (1923-1938)",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u16_l1",
+        "title": "Çok Partili Hayat Denemeleri",
+        "description": "CHF, TCF, SCF, Şeyh Sait İsyanı, İzmir Suikastı, Menemen Olayı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u16_l2",
+        "title": "1923-1938 Dış Politika Gelişmeleri",
+        "description": "Musul, Nüfus Mübadelesi, Bozkurt-Lotus, Balkan Antantı, Sadabat Paktı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u16_l3",
+        "title": "Atatürk Dönemi Kupa Sınavı 🏆",
+        "description": "Montrö Boğazlar Sözleşmesi, Hatay'ın Anavatana Katılması ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u17",
+    "unitNumber": 17,
+    "title": "Çağdaş Türk ve Dünya Tarihi - II. Dünya Savaşı & Soğuk Savaş",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u17_l1",
+        "title": "İki Savaş Arası Dönem ve II. Dünya Savaşı",
+        "description": "1929 Ekonomik Buhranı, Mihver-Müttefik Blokları ve Türkiye'nin Tutumu",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u17_l2",
+        "title": "Soğuk Savaş Dönemi",
+        "description": "Truman Doktrini, Marshall Planı, NATO, Varşova Paktı ve Kore Savaşı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u17_l3",
+        "title": "Soğuk Savaş Kupa Sınavı 🏆",
+        "description": "Türkiye'nin NATO'ya Girişi, Bağdat Paktı, Balkan Paktı ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u18",
+    "unitNumber": 18,
+    "title": "Çağdaş Türk ve Dünya Tarihi - Yumuşama Dönemi ve Sonrası",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u18_l1",
+        "title": "Yumuşama (Detant) Dönemi Olayları",
+        "description": "Küba Krizi, Vietnam Savaşı, Kıbrıs Barış Harekatı ve ASALA",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u18_l2",
+        "title": "SSCB'nin Dağılması ve Türk Cumhuriyetleri",
+        "description": "TİKA, TÜRKSOY, Karabağ Savaşı, Bosna Savaşı ve 21. Yüzyıl",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u18_l3",
+        "title": "Çağdaş Tarih Kupa Sınavı 🏆",
+        "description": "Orta Doğu Gelişmeleri, Körfez Savaşları ve Çağdaş Tarih Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u2",
+    "unitNumber": 2,
+    "title": "İlk Müslüman Türk Devletleri & Türk-İslam Medeniyeti",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u2_l1",
+        "title": "Devletler ve Siyasi Tarih",
+        "description": "Karahanlılar, Gazneliler, Büyük Selçuklu ve Mısır Devletleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u2_l2",
+        "title": "Kültür, Edebiyat ve Bilim",
+        "description": "İlk Edebi Eserler, Farabi, İbn-i Sina ve Harezmi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u2_l3",
+        "title": "İlk Türk-İslam Devletleri Kupa Sınavı 🏆",
+        "description": "Devlet Teşkilatı, İkta ve Sınav Soruları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u3",
+    "unitNumber": 3,
+    "title": "Türkiye Selçuklu Devleti & Anadolu Beylikleri",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u3_l1",
+        "title": "Anadolu'nun Fethi ve I. Beylikler",
+        "description": "Malazgirt Sonrası Kurulan Beylikler (Saltuk, Mengücek, Danişment, Artuk, Çaka)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u3_l2",
+        "title": "Türkiye Selçuklu Siyasi Tarihi",
+        "description": "Miryokefalon (Yurttutan), Kösedağ ve II. Beylikler Dönemi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u3_l3",
+        "title": "Selçuklu Ticareti, Ahilik ve Kültür Medeniyet 🏆",
+        "description": "Kervansaraylar, Ahilik Teşkilatı, Sigorta ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u4",
+    "unitNumber": 4,
+    "title": "Osmanlı Devleti Kuruluş Dönemi (1299-1453)",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u4_l1",
+        "title": "Beylikten Devlete Geçiş",
+        "description": "Osman Bey, Orhan Bey, İskan ve İstimalet Politikaları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u4_l2",
+        "title": "Balkanlarda Fetihler ve Savaşlar",
+        "description": "Sırpsındığı, I. Kosova, Niğbolu, Ankara Savaşı ve Fetret Devri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u4_l3",
+        "title": "Kuruluş Dönemi Kupa Sınavı 🏆",
+        "description": "Varna, II. Kosova ve Kuruluş Dönemi Özeti",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u5",
+    "unitNumber": 5,
+    "title": "Osmanlı Devleti Yükselme Dönemi (Dünya Gücü Osmanlı)",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u5_l1",
+        "title": "Fatih Sultan Mehmet ve İstanbul'un Fethi",
+        "description": "1453 Fethi, Balkan ve Anadolu Fetihleri, Kanunname-i Ali Osman",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u5_l2",
+        "title": "Yavuz Sultan Selim ve Kanuni Sultan Süleyman",
+        "description": "Çaldıran, Turnadağ, Ridaniye, Mohaç, Preveze ve Kapitülasyonlar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u5_l3",
+        "title": "Yükselme Dönemi Kupa Sınavı 🏆",
+        "description": "Sokullu Dönemi, Hint Deniz Seferleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u6",
+    "unitNumber": 6,
+    "title": "Osmanlı Kültür ve Medeniyeti - Devlet Teşkilatı & Divan",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u6_l1",
+        "title": "Merkez Teşkilatı ve Padişah",
+        "description": "Veraset Sistemindeki Değişimler, Saray Bölümleri ve Harem",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u6_l2",
+        "title": "Divan-ı Hümayun ve Yönetici Sınıflar",
+        "description": "Seyfiye, İlmiye, Kalemiye Sınıfları ve Divan Üyeleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u6_l3",
+        "title": "Devlet Teşkilatı Kupa Sınavı 🏆",
+        "description": "Sadrazam, Şeyhülislam, Kazasker, Nişancı ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u7",
+    "unitNumber": 7,
+    "title": "Osmanlı Kültür ve Medeniyeti - Toprak, Ordu & Hukuk",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u7_l1",
+        "title": "Toprak Sistemi ve Tımar",
+        "description": "Miri, Mülk, Vakıf Topraklar ve Dirlik Dağılımı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u7_l2",
+        "title": "Osmanlı Askeri Teşkilatı",
+        "description": "Kapıkulu Ocağı, Yeniçeriler, Tımarlı Sipahiler ve Donanma",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u7_l3",
+        "title": "Toprak ve Ordu Kupa Sınavı 🏆",
+        "description": "Vergi Sistemi, Hukuk, Lonca ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u8",
+    "unitNumber": 8,
+    "title": "Osmanlı Duraklama Dönemi (XVII. Yüzyıl Arayış Yılları)",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u8_l1",
+        "title": "İç İsyanlar ve Sebepleri",
+        "description": "Celali, İstanbul (Yeniçeri) ve Eyalet İsyanları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u8_l2",
+        "title": "XVII. Yüzyıl Siyasi Olayları ve Antlaşmalar",
+        "description": "Ferhat Paşa, Kasr-ı Şirin, Bucaş, Karlofça ve İstanbul Antlaşmaları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u8_l3",
+        "title": "Duraklama Dönemi Kupa Sınavı 🏆",
+        "description": "II. Osman, IV. Murat, Tarhuncu, Köprülüler ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tar_u9",
+    "unitNumber": 9,
+    "title": "Osmanlı Gerileme Dönemi ve Islahatlar (XVIII. Yüzyıl)",
+    "subject": "KPSS Tarih",
+    "colorHex": 4278355143,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tar_u9_l1",
+        "title": "Lale Devri ve Yenilikler",
+        "description": "Pasarofça, İbrahim Müteferrika, İlk Elçilikler ve Tulumbacılar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u9_l2",
+        "title": "XVIII. Yüzyıl Siyasi Olayları",
+        "description": "Prut, Belgrad, Küçük Kaynarca, Yaş ve Ziştovi Antlaşmaları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tar_u9_l3",
+        "title": "Gerileme Dönemi Kupa Sınavı 🏆",
+        "description": "III. Selim (Nizam-ı Cedit), Askeri Islahatlar ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u55",
+    "unitNumber": 55,
+    "title": "KPSS Dil Bilgisi ve Sözel Mantık",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u55_l1",
+        "title": "Gerçek, Mecaz ve Terim Anlam",
+        "description": "Temel Anlam, Yan Anlam, Mecaz Anlam, Terim Anlam, Somutlaştırma ve Soyutlaştırma",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u55_l2",
+        "title": "Söz Öbekleri ve Anlam Olayları",
+        "description": "Deyimler, Atasözleri, Dolaylama, Güzel Adlandırma, Ad Aktarması (Mecazımürsel)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u55_l3",
+        "title": "Sözcükte Anlam Kupa Sınavı 🏆",
+        "description": "İkilemeler, Yansıma Sözcükler ve Sözcükte Anlam Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u56",
+    "unitNumber": 56,
+    "title": "Cümlede Anlam, Kesin Yargı ve Örtülü Anlam",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u56_l1",
+        "title": "Cümleler Arası Anlam İlişkileri",
+        "description": "Sebep-Sonuç (Neden), Amaç-Sonuç, Koşul-Sonuç (Şart), Karşılaştırma",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u56_l2",
+        "title": "Cümle Yorumu ve Kesin Yargı Çıkarma",
+        "description": "Öznel ve Nesnel Anlatım, Doğrudan ve Dolaylı Anlatım, Örtülü Anlam, Çıkarım",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u56_l3",
+        "title": "Cümlede Anlam Kupa Sınavı 🏆",
+        "description": "Aşamalı Durum, Olasılık, Varsayım, Eleştiri ve Cümlede Anlam Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u57",
+    "unitNumber": 57,
+    "title": "Paragrafta Ana Düşünce ve Konu",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u57_l1",
+        "title": "Paragrafta Konu ve Başlık Belirleme",
+        "description": "Paragrafın Yazılış Amacı, Yazarın Üzerinde Durduğu Temel Duygu",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u57_l2",
+        "title": "Paragrafta Ana Fikir ve Vurgulanan Yargı",
+        "description": "Ana Düşünce Cümlesi, İlk ve Son Cümle Analizi, Asıl Anlatılmak İstenen",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u57_l3",
+        "title": "Ana Düşünce Kupa Sınavı 🏆",
+        "description": "ÖSYM Paragraf Taktikleri, Soru Kökü Analizi ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u58",
+    "unitNumber": 58,
+    "title": "Paragrafta Yardımcı Düşünceler ve Yapı",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u58_l1",
+        "title": "Yardımcı Fikirler (Değinilmemiştir / Çıkarılamaz)",
+        "description": "Olumsuz Soru Kökleri, Şık Eleme Yöntemi ve Anahtar Sözcükler",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u58_l2",
+        "title": "Paragrafta Yapı ve Akışı Bozan Cümle",
+        "description": "Paragrafı İkiye Bölme, Paragraf Tamamlama, Cümlelerin Yerini Değiştirme",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u58_l3",
+        "title": "Paragrafta Yapı Kupa Sınavı 🏆",
+        "description": "Giriş-Gelişme-Sonuç Bağlantıları, Düşüncenin Akışı ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u59",
+    "unitNumber": 59,
+    "title": "Anlatım Biçimleri ve Düşünceyi Geliştirme Yolları",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u59_l1",
+        "title": "4 Temel Anlatım Biçimi",
+        "description": "Öyküleme (Olay, kişi, zaman, mekan), Betimleme (Sözcüklerle resim yapma), Açıklama, Tartışma",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u59_l2",
+        "title": "Düşünceyi Geliştirme Yolları",
+        "description": "Tanımlama, Karşılaştırma, Örnekleme, Tanık Gösterme, Sayısal Verilerden Yararlanma, Benzetme",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u59_l3",
+        "title": "Anlatım Teknikleri Kupa Sınavı 🏆",
+        "description": "Anlatıcı Türleri (1. ve 3. Kişi), Bakış Açıları (İlahi, Kahraman, Gözlemci) ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u60",
+    "unitNumber": 60,
+    "title": "Ses Bilgisi ve Ses Olayları",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u60_l1",
+        "title": "Ünlü Uyumları ve Ünlü Olayları",
+        "description": "Büyük ve Küçük Ünlü Uyumu, Ünlü Düşmesi, Ünlü Daralması, Ünlü Türemesi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u60_l2",
+        "title": "Ünsüz Olayları",
+        "description": "Ünsüz Yumuşaması (Değişimi), Ünsüz Benzeşmesi (Sertleşme), Ünsüz Türemesi, Kaynaştırma, Ulama",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u60_l3",
+        "title": "Ses Bilgisi Kupa Sınavı 🏆",
+        "description": "Tüm Ses Olayları, Tuzak Kelimeler ve Ses Bilgisi Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u61",
+    "unitNumber": 61,
+    "title": "Yazım Kuralları ve TDK İpuçları",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u61_l1",
+        "title": "Büyük Harfler, Ekler ve Kısaltmalar",
+        "description": "Büyük Harflerin Kullanımı, 'de/da' Bağlacı, 'ki' Bağlacı, 'mi' Soru Eki, Kısaltmalar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u61_l2",
+        "title": "Birleşik Sözcüklerin ve Sayıların Yazımı",
+        "description": "Bitişik ve Ayrı Yazılan Birleşik Kelimeler, Sayıların Yazımı, İkilemeler",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u61_l3",
+        "title": "Yazım Kuralları Kupa Sınavı 🏆",
+        "description": "TDK Güncel Değişiklikleri, Sık Yapılan Hatalar ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u62",
+    "unitNumber": 62,
+    "title": "Noktalama İşaretleri ve Kullanım Yerleri",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u62_l1",
+        "title": "Nokta, Virgül ve Noktalı Virgül",
+        "description": "Virgülün Kullanıldığı ve Kullanılmadığı Yerler, Noktalı Virgül Mantığı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u62_l2",
+        "title": "İki Nokta, Üç Nokta ve Diğer İşaretler",
+        "description": "İki Nokta, Üç Nokta, Soru ve Ünlem İşareti, Tırnak, Yay Ayraç, Kesme İşareti",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u62_l3",
+        "title": "Noktalama İşaretleri Kupa Sınavı 🏆",
+        "description": "ÖSYM Noktalama Paragrafları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u63",
+    "unitNumber": 63,
+    "title": "Sözcükte Yapı, Kökler ve Ekler",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u63_l1",
+        "title": "Kök Türleri ve Yapım Ekleri",
+        "description": "İsim Kökü, Fiil Kökü, Sesteş Kök, Ortak Kök; İsimden İsim/Fiil, Fiilden İsim/Fiil Yapım Ekleri",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u63_l2",
+        "title": "Çekim Ekleri ve Sözcüğün Yapısı",
+        "description": "İsim Çekim Ekleri (Çokluk, Durum, İyelik, İlgi); Basit, Türemiş ve Birleşik Sözcükler",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u63_l3",
+        "title": "Sözcükte Yapı Kupa Sınavı 🏆",
+        "description": "İyelik Ekleri ile Belirtme Hali Ayrımı ve Yapı Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u64",
+    "unitNumber": 64,
+    "title": "Sözcük Türleri (İsim, Sıfat, Zamir, Zarf)",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u64_l1",
+        "title": "İsimler (Adlar) ve Sıfatlar (Ön Adlar)",
+        "description": "Varlıklara Verilişine Göre İsimler; Niteleme ve Belirtme (İşaret, Sayı, Belgisiz, Soru) Sıfatları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u64_l2",
+        "title": "Zamirler (Adıllar) ve Zarflar (Belirteçler)",
+        "description": "Kişi, İşaret, Belgisiz, Soru Zamirleri; Durum, Zaman, Miktar, Yer-Yön, Soru Zarfları",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u64_l3",
+        "title": "İsim Soylu Sözcükler Kupa Sınavı 🏆",
+        "description": "Edat (İlgeç), Bağlaç, Ünlem ve Sözcük Türleri Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u65",
+    "unitNumber": 65,
+    "title": "Fiiller, Ek Fiil, Fiilimsiler ve Fiilde Çatı",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u65_l1",
+        "title": "Fiil Çekimi ve Ek Fiil (Ek Eylem)",
+        "description": "Haber ve Dilek Kipleri, Basit ve Birleşik Zamanlı Fiiller; Ek Fiilin 2 Görevi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u65_l2",
+        "title": "Fiilimsiler (Eylemsiler) ve Fiilde Çatı",
+        "description": "İsim-Fiil (Ma-Iş-Mak), Sıfat-Fiil (An-Ası-Mez-Ar-Dik-Ecek-Miş), Zarf-Fiil; Özne ve Nesnesine Göre Çatı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u65_l3",
+        "title": "Fiiller Kupa Sınavı 🏆",
+        "description": "Etken, Edilgen, Dönüşlü, İşteş; Geçişli, Geçişsiz, Oldurgan, Ettirgen Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u66",
+    "unitNumber": 66,
+    "title": "Cümlenin Ögeleri ve Cümle Türleri",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u66_l1",
+        "title": "Temel ve Yardımcı Ögeler",
+        "description": "Yüklem, Özne; Nesne (Belirtili/Belirtisiz), Yer Tamlayıcısı (Dolaylı Tümleç), Zarf Tümleci",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u66_l2",
+        "title": "Cümle Türleri ve Yapısı",
+        "description": "Yüklemin Türüne (İsim/Fiil), Yerine (Kurallı/Devrik), Anlamına (Olumlu/Olumsuz) ve Yapısına (Basit, Birleşik, Sıralı, Bağlı) Göre Cümleler",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u66_l3",
+        "title": "Cümle Bilgisi Kupa Sınavı 🏆",
+        "description": "Öge Vurgusu, Ara Söz, Cümle Dışı Unsurlar ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u67",
+    "unitNumber": 67,
+    "title": "Anlatım Bozuklukları (Anlamsal ve Yapısal)",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u67_l1",
+        "title": "Anlama Dayalı Anlatım Bozuklukları",
+        "description": "Gereksiz Sözcük Kullanımı, Sözcüğün Yanlış Anlamda Kullanımı, Anlamca Çelişen Sözcükler, Mantık Hatası",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u67_l2",
+        "title": "Dil Bilgisine Dayalı Anlatım Bozuklukları",
+        "description": "Özne-Yüklem Uyumsuzluğu, Öge Eksikliği, Ek Fiil/Fiilimsi Uyuşmazlığı, Tamlama Yanlışları, Çatı Uyuşmazlığı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u67_l3",
+        "title": "Anlatım Bozukluğu Kupa Sınavı 🏆",
+        "description": "Tüm Anlatım Bozuklukları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_tur_u68",
+    "unitNumber": 68,
+    "title": "Sözel Mantık ve Tablo Yorumlama",
+    "subject": "KPSS Türkçe & Mantık",
+    "colorHex": 4293675161,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_tur_u68_l1",
+        "title": "Sözel Mantık Temel Kavramları ve Tablo Oluşturma",
+        "description": "Sabit ve Değişken Kriterler, Kişi-Sıra-Grup Tabloları Kurma",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u68_l2",
+        "title": "Öncül Yorumlama ve İhtimal Hesapları",
+        "description": "Kesin Doğru, Kesin Yanlış ve İhtimal Yargılarını Belirleme",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_tur_u68_l3",
+        "title": "Sözel Mantık Kupa Sınavı 🏆",
+        "description": "Çıkmış KPSS Formatında 4 Soruluk Mini Sözel Mantık Seti ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u34",
+    "unitNumber": 34,
+    "title": "Temel Hukuk Kavramları ve Normlar Hiyerarşisi",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u34_l1",
+        "title": "Sosyal Hayatı Düzenleyen Kurallar ve Hukuk",
+        "description": "Din, Ahlak, Görgü ve Hukuk Kuralları; Maddi ve Manevi Yaptırım",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u34_l2",
+        "title": "Normlar Hiyerarşisi (Kelsen Piramidi)",
+        "description": "Anayasa, Kanun, Milletlerarası Antlaşma, CBK ve Yönetmelik",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u34_l3",
+        "title": "Temel Hukuk Kupa Sınavı 🏆",
+        "description": "Pozitif, Mevzu, Doğal ve Tarihi Hukuk; Hukuk Boşluğu ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u35",
+    "unitNumber": 35,
+    "title": "Hukukun Dalları, Yaptırım Türleri ve Hak Kavramı",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u35_l1",
+        "title": "Hukukun Dalları ve Yaptırım (Müeyyide)",
+        "description": "Ceza, Cebri İcra, Tazminat, İptal ve Hükümsüzlük (Yokluk, Butlan)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u35_l2",
+        "title": "Hak Kavramı, Kazanılması ve Korunması",
+        "description": "Subjektif Haklar, İyiniyet (Kazanma), Dürüstlük (Kullanma), Meşru Müdafaa",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u35_l3",
+        "title": "Haklar ve Yaptırım Kupa Sınavı 🏆",
+        "description": "Müeyyide Çeşitleri, Dava Yolları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u36",
+    "unitNumber": 36,
+    "title": "Ehliyetler, Hısımlık ve Kişilik Kavramı",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u36_l1",
+        "title": "Kişilik ve Hak Ehliyeti",
+        "description": "Sağ ve Tam Doğum, Hak Ehliyeti (Pasif), Gaip ve Ölüm Karinesi",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u36_l2",
+        "title": "Fiil Ehliyeti ve Hısımlık",
+        "description": "Tam Ehliyetliler, Sınırlı Ehliyetliler, Ehliyetsizler; Kan ve Kayın Hısımlığı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u36_l3",
+        "title": "Kişiler Hukuku Kupa Sınavı 🏆",
+        "description": "Ehliyet Şartları, Derece Hesaplama ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u37",
+    "unitNumber": 37,
+    "title": "Devlet Biçimleri, Demokrasi ve Hükümet Sistemleri",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u37_l1",
+        "title": "Devlet Şekilleri ve Egemenlik",
+        "description": "Monarşi, Cumhuriyet, Üniter, Federal, Konfederal; Teokratik ve Laik",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u37_l2",
+        "title": "Hükümet Sistemleri",
+        "description": "Parlamenter Sistem, Başkanlık Sistemi, Yarı Başkanlık ve Meclis Hükümeti",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u37_l3",
+        "title": "Devlet Sistemleri Kupa Sınavı 🏆",
+        "description": "Kuvvetler Ayrılığı/Birliği, Demokrasi Türleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u38",
+    "unitNumber": 38,
+    "title": "Türk Anayasa Tarihi (1876, 1921, 1924, 1961 Anayasaları)",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u38_l1",
+        "title": "Osmanlı Anayasacılık Hareketleri ve 1921",
+        "description": "Sened-i İttifak, Tanzimat, Kanun-i Esasi; 1921 Teşkilat-ı Esasiye",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u38_l2",
+        "title": "1924 ve 1961 Anayasaları",
+        "description": "1924 Karma Hükümet, 1961 Çift Meclis, Anayasa Mahkemesi ve Temel Haklar",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u38_l3",
+        "title": "Anayasa Tarihi Kupa Sınavı 🏆",
+        "description": "Anayasa Değişiklikleri, Referandumlar ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u39",
+    "unitNumber": 39,
+    "title": "1982 Anayasası Temel İlkeleri ve Değiştirilemez Maddeler",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u39_l1",
+        "title": "Anayasanın İlk 3 Maddesi ve Başlangıç Metni",
+        "description": "Cumhuriyet, Demokratik-Laik-Sosyal Hukuk Devleti, Başkent, Bayrak, Marş",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u39_l2",
+        "title": "Devletin Temel Amaç ve Görevleri",
+        "description": "Egemenliğin Kullanılması, Anayasanın Bağlayıcılığı ve Üstünlüğü",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u39_l3",
+        "title": "1982 İlkeleri Kupa Sınavı 🏆",
+        "description": "Değiştirilemezlik Hükmü, Sosyal Devlet İlkeleri ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u40",
+    "unitNumber": 40,
+    "title": "Temel Hak ve Ödevler (Kişi, Sosyal-Ekonomik, Siyasi)",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u40_l1",
+        "title": "Kişi Hak ve Ödevleri (Koruyucu Haklar)",
+        "description": "Yaşama Hakkı, Kişi Dokunulmazlığı, Özel Hayatın Gizliliği, İşkence Yasağı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u40_l2",
+        "title": "Sosyal, Ekonomik ve Siyasi Haklar",
+        "description": "Eğitim, Çalışma, Sendika; Seçme-Seçilme, Siyasi Partiler, Dilekçe Hakkı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u40_l3",
+        "title": "Temel Haklar Kupa Sınavı 🏆",
+        "description": "Sert Çekirdek Haklar, Hakların Sınırlanması ve Durdurulması Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u41",
+    "unitNumber": 41,
+    "title": "Yasama Organı - TBMM Yapısı, Seçimler ve Milletvekilliği",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u41_l1",
+        "title": "TBMM Seçimleri ve Milletvekilliği Yeterliliği",
+        "description": "600 Milletvekili, 18 Yaş, 5 Yıl Seçim Dönemi, Erken Seçim (360 Vekil)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u41_l2",
+        "title": "Milletvekilliğinin Sona Ermesi ve Dokunulmazlık",
+        "description": "Yasama Dokunulmazlığı, Yasama Sorumsuzluğu, İstifa ve İptal Davası",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u41_l3",
+        "title": "Yasama Yapısı Kupa Sınavı 🏆",
+        "description": "TBMM Başkanlık Divanı, Siyasi Parti Grupları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u42",
+    "unitNumber": 42,
+    "title": "TBMM'nin Görev ve Yetkileri, Kanun Yapımı ve Denetim Yolları",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u42_l1",
+        "title": "TBMM'nin Görevleri ve Kanun Yapım Süreci",
+        "description": "Kanun Teklifi (1 Vekil), Genel Kurul, Cumhurbaşkanı Onayı, Bütçe Kanunu",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u42_l2",
+        "title": "TBMM'nin Bilgi Edinme ve Denetim Yolları",
+        "description": "Yazılı Soru, Genel Görüşme, Meclis Araştırması, Meclis Soruşturması",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u42_l3",
+        "title": "Yasama Görevleri Kupa Sınavı 🏆",
+        "description": "Gensoru/Güvenoyu Kaldırılması, Soruşturma Aşamaları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u43",
+    "unitNumber": 43,
+    "title": "Yürütme Organı - Cumhurbaşkanı, CBK ve MGK",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u43_l1",
+        "title": "Cumhurbaşkanı Seçimi ve Görevleri",
+        "description": "40 Yaş, Yükseköğrenim, 5 Yıl (En çok 2 dönem), Başkomutanlık ve Atama",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u43_l2",
+        "title": "Cumhurbaşkanlığı Kararnameleri (CBK) ve OHAL",
+        "description": "Olağan CBK, Olağanüstü CBK Sınırları; OHAL İlanı (En çok 6 ay)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u43_l3",
+        "title": "Yürütme Kupa Sınavı 🏆",
+        "description": "Milli Güvenlik Kurulu (MGK) Yapısı, Cumhurbaşkanı Yardımcıları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u44",
+    "unitNumber": 44,
+    "title": "Yargı Organı - Anayasa Mahkemesi ve Yüksek Mahkemeler",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u44_l1",
+        "title": "Anayasa Mahkemesi (AYM) Yapısı ve Görevleri",
+        "description": "15 Üye, 12 Yıl, İptal ve İtiraz Davaları, Bireysel Başvuru, Yüce Divan",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u44_l2",
+        "title": "Diğer Yüksek Mahkemeler ve HSK",
+        "description": "Yargıtay, Danıştay, Uyuşmazlık Mahkemesi, HSK (13 üye), Sayıştay",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u44_l3",
+        "title": "Yargı Organı Kupa Sınavı 🏆",
+        "description": "Yargı Yolu Kapalı İşlemler, Yüce Divan Yargılamaları ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u45",
+    "unitNumber": 45,
+    "title": "İdare Hukuku İlkeleri ve Türkiye'nin İdari Teşkilatı",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u45_l1",
+        "title": "İdarenin Temel İlkeleri ve Bütünlüğü",
+        "description": "Hiyerarşi ve İdari Vesayet, Kamu Tüzel Kişiliği, Yetki Genişliği",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u45_l2",
+        "title": "Merkezden Yönetim (Başkent ve Taşra)",
+        "description": "Bakanlıklar, İl İdaresi (Vali), İlçe İdaresi (Kaymakam), Bucak",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u45_l3",
+        "title": "İdare Teşkilatı Kupa Sınavı 🏆",
+        "description": "Vali ile Kaymakam Karşılaştırması, Yönetmelikler ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u46",
+    "unitNumber": 46,
+    "title": "Mahalli İdareler (Belediye, İl Özel İdaresi, Köy)",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u46_l1",
+        "title": "İl Özel İdaresi ve Belediyeler",
+        "description": "Vali, İl Genel Meclisi; Belediye Başkanı, Meclis, Encümen; Büyükşehir",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u46_l2",
+        "title": "Köy İdaresi ve İdari İşlemler",
+        "description": "Muhtar, Köy İhtiyar Heyeti, Köy Derneği; İmece ve Salma",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u46_l3",
+        "title": "Mahalli İdareler Kupa Sınavı 🏆",
+        "description": "Organların Görevden Uzaklaştırılması, Vesayet Denetimi ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u47",
+    "unitNumber": 47,
+    "title": "657 Sayılı Devlet Memurları Kanunu - İlkeler, Haklar, Yasaklar",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u47_l1",
+        "title": "Temel İlkeler ve Memurluğa Giriş",
+        "description": "Sınıflandırma, Kariyer, Liyakat; Genel Şartlar, Aday Memurluk (1-2 Yıl)",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u47_l2",
+        "title": "Memurların Ödevleri, Hakları ve Yasakları",
+        "description": "Mal Bildirimi (0 ve 5 ile biten yıllar), Grev ve Ticaret Yasağı; İzinler",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u47_l3",
+        "title": "Devlet Memurları Kupa Sınavı 🏆",
+        "description": "İstihdam Türleri (Memur, Sözleşmeli, İşçi) ve Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  },
+  {
+    "id": "kpss_vat_u48",
+    "unitNumber": 48,
+    "title": "657 Sayılı DMK - Disiplin Cezaları ve Memurluğun Sona Ermesi",
+    "subject": "KPSS Vatandaşlık & Anayasa",
+    "colorHex": 4287323382,
+    "lessonCount": 3,
+    "lessons": [
+      {
+        "id": "kpss_vat_u48_l1",
+        "title": "Disiplin Cezaları ve Yetkili Amirler",
+        "description": "Uyarma, Kınama, Aylıktan Kesme, Kademe İlerlemesinin Durdurulması, İhraç",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u48_l2",
+        "title": "Memurluğun Sona Ermesi ve Zamanaşımı",
+        "description": "İstifa (Çekilme), Çekilmiş Sayılma, Emeklilik, Ölüm, Disiplin Soruşturması",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": false
+      },
+      {
+        "id": "kpss_vat_u48_l3",
+        "title": "Vatandaşlık Final Kupa Sınavı 🏆",
+        "description": "Tüm DMK Hükümleri, Ceza Yetkileri ve Vatandaşlık Final Kupa Sınavı",
+        "xpReward": 50,
+        "gemReward": 10,
+        "isUnitExam": true
+      }
+    ]
+  }
+]

@@ -8,100 +8,7 @@ import '../services/sound_service.dart';
 import '../widgets/duo_button.dart';
 import '../widgets/parrot_mascot_widget.dart';
 
-final List<Flashcard> defaultFlashcards = [
-  // ==========================================
-  // TYT BİYOLOJİ KARTLARI (10 Kart)
-  // ==========================================
-  const Flashcard(
-    id: 'fc_bio_1',
-    subject: 'TYT Biyoloji',
-    category: 'Organeller & Hücre',
-    term: 'Mitokondri',
-    meaning: 'Çift katlı zarlı organeldir. Oksijenli solunumla hücrenin ATP (enerji) santralidir. Kıvrımlı iç zarına "krista", sıvı kısmına "matriks" denir.',
-    example: 'Enerji ihtiyacı yüksek olan kas, karaciğer ve sinir hücrelerinde sayısı çok fazladır.',
-    examTip: 'Kendi DNA, RNA ve ribozomu vardır; çekirdek kontrolünde hücre bölünmesini beklemeden çoğalabilir!',
-  ),
-  const Flashcard(
-    id: 'fc_bio_2',
-    subject: 'TYT Biyoloji',
-    category: 'Enzimler',
-    term: 'Anahtar-Kilit Modeli',
-    meaning: 'Enzim ile substrat arasındaki kusursuz biçimsel uyumu ifade eder. Enzim substratına aktif bölgesinden bağlanır ve reaksiyondan değişmeden çıkar.',
-    example: 'Substrat parçalanıp ürüne dönüşürken, enzim miktarı ve yapısı reaksiyon sonunda sabit kalır.',
-    examTip: 'Enzimler substrata dış yüzeyinden etki eder; substrat yüzeyi genişledikçe (kıyılmış et) tepkime hızı artar!',
-  ),
-  const Flashcard(
-    id: 'fc_bio_3',
-    subject: 'TYT Biyoloji',
-    category: 'Sınıflandırma',
-    term: 'Analog Organ vs Homolog Organ',
-    meaning: 'Analog: Kökenleri farklı, görevleri aynı organlar (Kuş kanadı - Sinek kanadı). Homolog: Kökenleri aynı, görevleri farklı veya aynı olabilen organlar (İnsan kolu - Balina yüzgeci).',
-    example: 'Doğal (Filogenetik) sınıflandırmada sadece HOMOLOG organlar ve DNA benzerliği temel alınır.',
-    examTip: 'ÖSYM TUZAĞI: Analog organlar yapay (ampirik) sınıflandırmada kullanılmıştır; modern biyolojide akrabalık göstermez!',
-  ),
-  const Flashcard(
-    id: 'fc_bio_4',
-    subject: 'TYT Biyoloji',
-    category: 'Canlılar Alemi',
-    term: 'Memelilere Özgü 4 Altın Özellik',
-    meaning: 'Yalnızca memeliler sınıfında görülen ve başka hiçbir omurgalıda bulunmayan özelliklerdir.',
-    example: '1. Akciğerlerinde alveol bulunması\n2. Kaslı diyaframa sahip olması\n3. Olgun alyuvarlarının çekirdeksiz olması\n4. Yavrularını süt bezleriyle beslemesi ve vücudun kıllarla kaplı olması.',
-    examTip: 'ÖSYM omurgalı sorusu sorarsa olgun alyuvarda çekirdeksizlik veya alveol gördüğün an tereddütsüz MEMELİ de!',
-  ),
-  const Flashcard(
-    id: 'fc_bio_5',
-    subject: 'TYT Biyoloji',
-    category: 'Kalıtım',
-    term: 'X\'e Bağlı Çekinik Kalıtım',
-    meaning: 'Renk körlüğü ve Hemofili gibi hastalıklar X kromozomunun Y ile homolog olmayan bölgesinde çekinik (r) taşınır.',
-    example: 'Erkek çocuk tek X kromozomunu kesinlikle ANNESİNDEN alır. Anne renk körüyse (XʳXʳ), tüm erkek çocukları kesinlikle hastadır!',
-    examTip: 'Hasta bir kız çocuğunun (XʳXʳ) babası (XʳY) KESİNLİKLE hastadır!',
-  ),
-  const Flashcard(
-    id: 'fc_bio_6',
-    subject: 'TYT Biyoloji',
-    category: 'Hücre Zarı',
-    term: 'Akıcı Mozaik Zar Modeli',
-    meaning: 'Hücre zarı çift katlı fosfolipit tabakasından ve içine gömülü proteinlerden oluşur. Proteinlere bağlı glikoprotein ve glikolipitler hücreye kimlik ve seçici geçirgenlik kazandırır.',
-    example: 'Hücrelerin birbirini tanıması ve hormonların hedef hücreye bağlanması glikoprotein reseptörleriyle sağlanır.',
-    examTip: 'Küçük moleküller büyüklere göre, nötr moleküller iyonlara göre, yağda çözünenler (A, D, E, K) suda çözünenlere göre zardan DAHA HIZLI geçer!',
-  ),
-  const Flashcard(
-    id: 'fc_bio_7',
-    subject: 'TYT Biyoloji',
-    category: 'Metabolizma',
-    term: 'Fotosentez vs Kemosentez',
-    meaning: 'Fotosentezde ışık enerjisi ve klorofil kullanılır (Bitki, alg, siyanobakteri). Kemosentezde inorganik maddelerin oksitlenmesiyle açığa çıkan kimyasal enerji kullanılır; ışık ve klorofil gerekmez (Sadece bazı prokaryotlar!).',
-    example: 'Kemosentez gece-gündüz kesintisiz gerçekleşebilir; fotosentez ise sadece ışık varlığında gerçekleşir.',
-    examTip: 'Kemosentezi SADECE VE SADECE bazı BAKTERİ ve ARKE türleri yapabilir! Hiçbir ökaryot canlı kemosentez yapamaz.',
-  ),
-  const Flashcard(
-    id: 'fc_bio_8',
-    subject: 'TYT Biyoloji',
-    category: 'Hücre Bölünmesi',
-    term: 'Krossing-Over (Parça Değişimi)',
-    meaning: 'Mayoz-1 Profaz-1 evresinde homolog kromozomların kardeş olmayan kromatitleri arasındaki gen alışverişidir.',
-    example: 'Yeni genetik kombinasyonlar (varyasyon) oluşturarak tür içi çeşitliliği artırır.',
-    examTip: 'Krossing-over genlerin yapısını veya nükleotit dizilimini DEĞİŞTİRMEZ; sadece kromozom üzerindeki gen kombinasyonunu değiştirir!',
-  ),
-  const Flashcard(
-    id: 'fc_bio_9',
-    subject: 'TYT Biyoloji',
-    category: 'Madde Geçişleri',
-    term: 'Plazmoliz vs Deplazmoliz vs Turgor',
-    meaning: 'Plazmoliz: Hücrenin hipertonik (çok yoğun) ortama konulup su kaybederek büzülmesidir. Deplazmoliz: Büzülmüş hücrenin saf suya konulup su alarak eski haline dönmesidir. Turgor: Hücrenin su alıp şişerek zarına yaptığı basınçtır.',
-    example: 'Tuzlanan etin veya reçel yapılan meyvenin su kaybedip büzülmesi plazmolizdir (bakteriler yaşayamaz).',
-    examTip: 'Bitki hücreleri aşırı su aldığında çeper sayesinde patlamaz (turgor olur); hayvan hücreleri ise çeperi olmadığı için patlar (Hemoliz)!',
-  ),
-  const Flashcard(
-    id: 'fc_bio_10',
-    subject: 'TYT Biyoloji',
-    category: 'Ekosistem',
-    term: 'Biyolojik Birikim',
-    meaning: 'DDT, cıva, kurşun gibi zehirli maddelerin besin zincirinde üreticiden son tüketiciye doğru gidildikçe dokularda artarak birikmesidir.',
-    example: 'Besin piramidinin en üstündeki yırtıcı kuş ve insanda zehirli madde yoğunluğu en yüksek seviyededir.',
-    examTip: 'Piramitte yukarı çıkıldıkça: Biyokütle azalır, aktarılan enerji azalır, birey sayısı azalır, BİYOLOJİK BİRİKİM ARTAR!',
-  ),
+import '../data/kpss_flashcards.dart';
 
   // ==========================================
   // TYT TÜRKÇE KARTLARI (10 Kart)
@@ -1094,7 +1001,7 @@ class _FlashcardsScreenState extends ConsumerState<FlashcardsScreen>
       if (subj == 'Tümü') {
         _deck = List.from(base)..shuffle();
       } else {
-        _deck = base.where((c) => c.subject == subj).toList()..shuffle();
+        _deck = base.where((c) => c.subject == subj || c.subject.contains(subj) || subj.contains(c.subject)).toList()..shuffle();
         if (_deck.isEmpty) {
           _deck = List.from(base)..shuffle();
         }
@@ -1591,7 +1498,7 @@ class _FlashcardsScreenState extends ConsumerState<FlashcardsScreen>
               borderRadius: BorderRadius.circular(20),
             ),
             child: Text(
-              '${card.subject} • ${card.category ?? "YKS Temel"}',
+              '${card.subject} • ${card.category ?? "KPSS Temel"}',
               style: TextStyle(
                 color: subjectColor,
                 fontWeight: FontWeight.w900,

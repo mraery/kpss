@@ -1,4 +1,4 @@
-package com.ykslingo.ykslingo
+package com.kpssquest.app
 
 import android.media.AudioAttributes
 import android.media.AudioFormat

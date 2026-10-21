@@ -213,9 +213,12 @@ class QuizNotifier extends StateNotifier<QuizState> {
         correctCount: isAllDone ? state.correctCount + 1 : state.correctCount,
       );
     } else {
-      // ❌ YANLIŞ EŞLEŞME: Kırmızı olsun, kabul etmesin, can kaybet, ses çal
+      // ❌ YANLIŞ EŞLEŞME: Kırmızı olsun, kabul etmesin, ses çal (pratik modunda can kaybetmez)
       HapticFeedback.vibrate();
-      _ref.read(userProfileProvider.notifier).loseHeart();
+      final isPractice = state.lesson.id.startsWith('practice_');
+      if (!isPractice) {
+        _ref.read(userProfileProvider.notifier).loseHeart();
+      }
       SoundService.playIncorrect();
 
       state = state.copyWith(
@@ -291,7 +294,10 @@ class QuizNotifier extends StateNotifier<QuizState> {
 
     if (!isCorrect) {
       HapticFeedback.vibrate();
-      _ref.read(userProfileProvider.notifier).loseHeart();
+      final isPractice = state.lesson.id.startsWith('practice_');
+      if (!isPractice) {
+        _ref.read(userProfileProvider.notifier).loseHeart();
+      }
       SoundService.playIncorrect();
     } else {
       HapticFeedback.lightImpact();

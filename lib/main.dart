@@ -7,10 +7,12 @@ import 'screens/main_navigation_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
+  try {
+    await SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
+  } catch (_) {}
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
@@ -32,6 +34,13 @@ class YksQuestApp extends ConsumerWidget {
     final baseTextTheme = Theme.of(context).textTheme;
     final activeExam = ref.watch(examConfigProvider);
 
+    TextTheme appTextTheme;
+    try {
+      appTextTheme = GoogleFonts.nunitoTextTheme(baseTextTheme);
+    } catch (_) {
+      appTextTheme = baseTextTheme;
+    }
+
     return MaterialApp(
       title: '${activeExam.title} - ${activeExam.description}',
       debugShowCheckedModeBanner: false,
@@ -44,7 +53,7 @@ class YksQuestApp extends ConsumerWidget {
           secondary: activeExam.secondaryColor,
           error: const Color(0xFFFF4B4B),
         ),
-        textTheme: GoogleFonts.nunitoTextTheme(baseTextTheme),
+        textTheme: appTextTheme,
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.white,
           elevation: 0,

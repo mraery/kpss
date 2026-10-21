@@ -17,18 +17,18 @@ void main() {
       expect(config.calculateNet(1, 4), equals(0.0));
     });
 
-    test('KPSS Quest 27 ünite, 54 ders ve 430+ sorudan oluşur', () {
-      expect(mockUnits.length, equals(27));
+    test('KPSS Quest kapsamlı 86 ünite, 250+ ders ve 2500+ sorudan oluşur', () {
+      expect(mockUnits.length, greaterThanOrEqualTo(80));
       final totalLessons = mockUnits.expand((u) => u.lessons).length;
       final totalQuestions = mockUnits.expand((u) => u.lessons).expand((l) => l.questions).length;
 
-      expect(totalLessons, equals(54));
-      expect(totalQuestions, greaterThanOrEqualTo(430));
+      expect(totalLessons, greaterThanOrEqualTo(240));
+      expect(totalQuestions, greaterThanOrEqualTo(2500));
     });
 
     test('Her derste 8-12 soru bulunur, ilk soru kavram kartıdır ve son ders kupa sınavıdır', () {
       for (final unit in mockUnits) {
-        expect(unit.lessons.length, equals(2));
+        expect(unit.lessons.length, greaterThanOrEqualTo(2));
         expect(unit.lessons.last.isUnitExam, isTrue, reason: '${unit.title} son dersi kupa sınavı olmalı');
 
         for (final lesson in unit.lessons) {

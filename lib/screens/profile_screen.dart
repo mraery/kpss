@@ -500,7 +500,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      isPremium ? 'YKS Lingo Super Premium 👑' : 'Super Premium\'a Geç 👑',
+                      isPremium ? 'KPSS Quest Super Premium 👑' : 'Super Premium\'a Geç 👑',
                       style: const TextStyle(
                         fontSize: 17,
                         fontWeight: FontWeight.w900,
@@ -511,7 +511,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                     Text(
                       isPremium
                           ? 'Sınırsız can aktif! Canın asla bitmeyecek.'
-                          : 'Sınırsız can ile canın bitmeden kesintisiz YKS çalış!',
+                          : 'Sınırsız can ile canın bitmeden kesintisiz KPSS çalış!',
                       style: const TextStyle(
                         fontSize: 12.5,
                         color: Colors.white70,

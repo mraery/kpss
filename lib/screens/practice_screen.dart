@@ -6,6 +6,7 @@ import '../providers/game_provider.dart';
 import '../widgets/duo_button.dart';
 import '../widgets/out_of_hearts_dialog.dart';
 import 'flashcards_screen.dart';
+import 'fast_reflex_screen.dart';
 import 'quiz_screen.dart';
 
 class PracticeScreen extends ConsumerWidget {
@@ -76,11 +77,31 @@ class PracticeScreen extends ConsumerWidget {
 
             const SizedBox(height: 24),
 
+            // GÖRÜNCE YAPIŞTIR! ⚡ (KPSS Hızlı Refleks & Şifre Oyunu)
+            _buildActionCard(
+              context: context,
+              title: 'Görünce Yapıştır! ⚡',
+              subtitle: 'KPSS Tarih, Coğrafya ve Vatandaşlık şifrelerini 7 saniyede yapıştır! Kombo yap ve rekor kır.',
+              icon: Icons.bolt_rounded,
+              iconColor: const Color(0xFFF59E0B),
+              buttonText: 'REFLEKS OYNA ⚡',
+              buttonColor: DuoButtonColor.green,
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => const FastReflexScreen(),
+                  ),
+                );
+              },
+            ),
+
+            const SizedBox(height: 16),
+
             // Hızlı Pratik Modu Kartı
             _buildActionCard(
               context: context,
-              title: 'Hızlı Soru Pratiği',
-              subtitle: 'TYT Türkçe ve Tarih karışık mini soru seti çöz, hem XP hem de +1 Can kazan.',
+              title: 'Hızlı Soru Pratiği (10 Soru)',
+              subtitle: 'KPSS Genel Yetenek & Genel Kültür karışık 10 soruluk set çöz, hem XP hem de +1 Can kazan.',
               icon: Icons.flash_on_rounded,
               iconColor: const Color(0xFFFF9600),
               buttonText: 'PRATİĞE BAŞLA',
@@ -92,7 +113,7 @@ class PracticeScreen extends ConsumerWidget {
                     .where((q) => q.type != QuestionType.conceptCard)
                     .toList();
                 allQuizQuestions.shuffle();
-                final practiceQuestions = allQuizQuestions.take(3).toList();
+                final practiceQuestions = allQuizQuestions.take(10).toList();
 
                 if (profile.hearts <= 0 && !profile.isPremium) {
                   OutOfHeartsDialog.show(context, ref);
@@ -126,7 +147,7 @@ class PracticeScreen extends ConsumerWidget {
             _buildActionCard(
               context: context,
               title: 'Kartlarla Pekiştir 🎴',
-              subtitle: 'Kavram kartını çevir, anlamını öğren. Sağa atarak öğrendim de, sola atarak tekrar listene ekle!',
+              subtitle: 'KPSS Tarih, Coğrafya ve Vatandaşlık kavram kartlarını çevir, anlamını pekiştir!',
               icon: Icons.style_rounded,
               iconColor: const Color(0xFF7C3AED),
               buttonText: 'KARTLARI ÇEVİR',
@@ -182,9 +203,9 @@ class PracticeScreen extends ConsumerWidget {
 
             const SizedBox(height: 24),
 
-            // Günün YKS Hap Bilgisi
+            // Günün KPSS Hap Bilgisi
             const Text(
-              'GÜNÜN YKS HAP BİLGİSİ 💡',
+              'GÜNÜN KPSS HAP BİLGİSİ 💡',
               style: TextStyle(
                 fontWeight: FontWeight.w900,
                 fontSize: 14,
@@ -208,14 +229,14 @@ class PracticeScreen extends ConsumerWidget {
                       Icon(Icons.lightbulb_rounded, color: Color(0xFFFFC800), size: 24),
                       SizedBox(width: 8),
                       Text(
-                        'Amasya Genelgesi Püf Noktası',
+                        '1982 Anayasası Püf Noktası',
                         style: TextStyle(fontWeight: FontWeight.w800, fontSize: 15),
                       ),
                     ],
                   ),
                   SizedBox(height: 8),
                   Text(
-                    '"Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır" maddesi hem yöntemi belirtir hem de ilk kez ulusal egemenlikten üstü kapalı bahseder.',
+                    '2017 Anayasa Değişikliği ile Başbakanlık ve Bakanlar Kurulu tamamen kaldırılmış, Cumhurbaşkanlığı Hükümet Sistemine geçilmiştir. TBMM üye sayısı 550\'den 600\'e çıkarılmıştır.',
                     style: TextStyle(fontSize: 14, color: Color(0xFF4B4B4B), height: 1.4),
                   ),
                 ],

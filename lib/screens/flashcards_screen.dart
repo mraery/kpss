@@ -990,6 +990,63 @@ final List<Flashcard> defaultFlashcards = [
     example: "Ruben ve Kamen'in ağır oksijen izotopu (18O) deneyinde sadece suyun oksijeni işaretlendiğinde atmosfere verilen O2'nin işaretli olduğu kanıtlanmıştır.",
     examTip: "Karbondioksitteki (CO2) oksijen ise üretilen glikozun (C6H12O6) ve açığa çıkan metabolik suyun yapısına katılır!",
   ),
+  // ==========================================
+  // KPSS TARİH, COĞRAFYA, VATANDAŞLIK KARTLARI
+  // ==========================================
+  const Flashcard(
+    id: "fc_kpss_tar_1",
+    subject: "KPSS Tarih",
+    category: "İslamiyet Öncesi",
+    term: "Orhun Kitabeleri (Göktürk Yazıtları)",
+    meaning: "II. Göktürk Devleti döneminde Bilge Kağan, Kül Tigin ve Vezir Tonyukuk adına dikilen, Türk tarihinin ve edebiyatının ilk yazılı siyasetname belgeleridir.",
+    example: "Danimarkalı dilbilimci Vilhelm Thomsen tarafından 1893'te çözülmüştür; okunan ilk kelime 'Tengri'dir.",
+    examTip: "Siyasetname özelliği taşır ve hükümdarın halka hesap vermesini içerir!",
+  ),
+  const Flashcard(
+    id: "fc_kpss_tar_2",
+    subject: "KPSS Tarih",
+    category: "Milli Mücadele",
+    term: "I. İnönü Zaferi Sonuçları (M-İ-L-A-T)",
+    meaning: "Batı Cephesi'nde düzenli ordunun kazandığı ilk zaferin iç ve dış siyasi sonuçlarıdır.",
+    example: "Moskova Antlaşması, İstiklal Marşı'nın Kabulü, Londra Konferansı, Afganistan Dostluk Antlaşması, Teşkilat-ı Esasiye (1921 Anayasası).",
+    examTip: "Kronolojik sıralama: T - L - A - İ - M (Teşkilat-ı Esasiye, Londra, Afganistan, İstiklal Marşı, Moskova)!",
+  ),
+  const Flashcard(
+    id: "fc_kpss_cog_1",
+    subject: "KPSS Coğrafya",
+    category: "Türkiye'nin Yer Şekilleri",
+    term: "Ege Bölgesi Kırıklı (Horst) Dağları",
+    meaning: "Sert kütlelerin yan basınçlarla kırılması (faylanma) sonucu yüksekte kalan bloklara Horst, çöken oluklara Graben denir.",
+    example: "Kuzeyden güneye: Kaz, Madra, Yunt, Bozdağlar, Aydın, Menteşe Dağları. (Hatay'da ise Nur/Amanos Dağları).",
+    examTip: "Menteşe Dağları kıyıya paralel uzandığı için Menteşe Yöresi bol yağış alır!",
+  ),
+  const Flashcard(
+    id: "fc_kpss_cog_2",
+    subject: "KPSS Coğrafya",
+    category: "Türkiye Akarsuları",
+    term: "Delta Ovaları ve Oluşum Şartları",
+    meaning: "Akarsuların taşıdığı alüvyonları sığ kıyılarda, gelgit genliğinin az ve kıta sahanlığının geniş olduğu deniz içlerinde biriktirmesiyle oluşan verimli ovalardır.",
+    example: "Karadeniz: Bafra (Kızılırmak), Çarşamba (Yeşilırmak) | Akdeniz: Çukurova (Seyhan-Ceyhan), Silifke (Göksu).",
+    examTip: "Doğu Karadeniz ve Antalya (falezli) kıyılarında kıta sahanlığı dar olduğu için delta oluşumu zordur!",
+  ),
+  const Flashcard(
+    id: "fc_kpss_vat_1",
+    subject: "KPSS Vatandaşlık",
+    category: "1982 Anayasası",
+    term: "Cumhurbaşkanlığı Kararnamesi (CBK) Kuralları",
+    meaning: "Cumhurbaşkanı yürütme yetkisine ilişkin konularda CBK çıkarabilir. Yalnızca Sosyal ve Ekonomik Haklar CBK ile düzenlenebilir.",
+    example: "Kişi hakları ve Siyasi haklar olağan dönemde CBK ile DÜZENLENEMEZ. Kanun ile CBK çatışırsa KANUN hükümleri uygulanır.",
+    examTip: "OLAĞANÜSTÜ HAL (OHAL) CBK'ları kanun hükmündedir ve bunlara karşı Anayasa Mahkemesi'ne iptal davası AÇILAMAZ!",
+  ),
+  const Flashcard(
+    id: "fc_kpss_vat_2",
+    subject: "KPSS Vatandaşlık",
+    category: "İdare Hukuku",
+    term: "Yetki Genişliği vs İdari Vesayet",
+    meaning: "Yetki Genişliği: Sadece Valilerin merkeze danışmadan merkez adına karar alabilmesidir. İdari Vesayet: Merkezi idarenin, yerinden yönetim (belediye vb.) kuruluşlarını hukuka uygunluk açısından denetlemesidir.",
+    example: "Büyükşehir belediyesi kanunla, normal belediyeler Cumhurbaşkanı kararıyla kurulur.",
+    examTip: "Hiyerarşi aynı tüzel kişilik içinde, İdari Vesayet ise iki farklı tüzel kişilik (Devlet -> Belediye) arasında uygulanır!",
+  ),
 ];
 
 class FlashcardsScreen extends ConsumerStatefulWidget {
@@ -1013,20 +1070,13 @@ class _FlashcardsScreenState extends ConsumerState<FlashcardsScreen>
   String _selectedFilterSubject = 'Tümü';
   final List<String> _filterSubjects = const [
     'Tümü',
-    'TYT Biyoloji',
+    'KPSS Tarih',
+    'KPSS Coğrafya',
+    'KPSS Vatandaşlık',
     'TYT Türkçe',
     'TYT Matematik',
-    'TYT Fizik',
-    'TYT Kimya',
     'TYT Tarih',
     'TYT Coğrafya',
-    'TYT Felsefe',
-    'TYT Din Kültürü',
-    'AYT Matematik',
-    'AYT Edebiyat',
-    'AYT Fizik',
-    'AYT Kimya',
-    'AYT Biyoloji',
   ];
 
   // 3D Flip Animasyonu

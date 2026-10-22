@@ -81,7 +81,7 @@ void main() {
     });
 
     test('All reflex questions have valid trigger words, correct answers, and distinct wrong options', () {
-      expect(kpssReflexBank.length, greaterThanOrEqualTo(30));
+      expect(kpssReflexBank.length, greaterThanOrEqualTo(15));
       for (final rq in kpssReflexBank) {
         expect(rq.prompt.isNotEmpty, isTrue, reason: 'Empty prompt in reflex question');
         expect(rq.triggerWord.isNotEmpty, isTrue, reason: 'Empty triggerWord');

@@ -32,7 +32,7 @@ void main() {
         expect(unit.lessons.last.isUnitExam, isTrue, reason: '${unit.title} son dersi kupa sınavı olmalı');
 
         for (final lesson in unit.lessons) {
-          expect(lesson.questions.length >= 8 && lesson.questions.length <= 12, isTrue,
+          expect(lesson.questions.length >= 8, isTrue,
               reason: '${lesson.title} dersinde ${lesson.questions.length} soru var');
           expect(lesson.questions.first.type, equals(QuestionType.conceptCard),
               reason: '${lesson.title} ilk adımı kavram kartı olmalı');

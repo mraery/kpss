@@ -7,8 +7,6 @@ import '../widgets/duo_button.dart';
 import 'flashcards_screen.dart';
 import 'fast_reflex_screen.dart';
 import 'quiz_screen.dart';
-import 'fast_reflex_screen.dart';
-import 'splash_mascot_screen.dart';
 
 class PracticeScreen extends ConsumerWidget {
   const PracticeScreen({super.key});
